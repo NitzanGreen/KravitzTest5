@@ -1,0 +1,126 @@
+﻿<!doctype html>
+<html lang="he">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <meta name="author" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+    <meta name="theme-color" content="#ff6600" />
+
+
+    <!--CSS FROM WEB-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <!--button CSS from w3schools-->
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+    <!-- CSS -->
+    <link href="bootstrap/css/bootstrap-reboot.css" rel="stylesheet" />
+    <link href="bootstrap/css/bootstrap-grid.css" rel="stylesheet" />
+    <link href="bootstrap/css/bootstrap.css" rel="stylesheet" />
+    <link href="styles/myStyle.css" rel="stylesheet" />
+
+    <!-- Scripts -->
+    <script src="jScripts/jquery-1.12.0.min.js"></script>
+    <script src="bootstrap/js/bootstrap.js"></script>
+
+    <!-- Scripts FROM WEB-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <!-- Scripts FROM WEB for SWIPE-->
+    <!--<link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+    <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+    <script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>-->
+
+    <!--scripts for SLICK-->
+    <!--<link rel="stylesheet" type="text/css" href="slick/slick.css" />
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css" />-->
+
+
+    <!--<script>
+        $('.carousel-inner').slick();
+    </script>-->
+
+    <!--<script>
+        $(document).on("pagecreate", "#pageone", function () {
+            $("#elec").on("swipeleft", function () {
+                //alert("You swiped left!");
+                $('.carousel-inner').slick();
+
+            });
+            $("#elec").on("swiperight", function () {
+                alert("You swiped right!");
+            });
+        });
+    </script>-->
+
+
+</head>
+
+<body>
+    <div class="container" data-role="page" id="pageone">
+        <!--<h2>Carousel Example</h2>-->
+        <div id="myCarousel" class="carousel slide">
+            <!--data-ride="carousel" automatic animation of slides-->
+            <!-- Indicators -->
+            <ol class="carousel-indicators" id="moran">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="3"></li>
+                <li data-target="#myCarousel" data-slide-to="2"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+
+            </ol>
+
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner">
+                <div class="item active">
+                    <div style="width:100%; height:667px;  background-color:rosybrown" id="elec">
+                        <h1>1. אלקטרוניקה</h1>
+                        <div id="elec_div">
+                            <h3>פה נלמד על אלקטרוניקה</h3>
+                            <p>פה תהייה תמונה</p>
+                            <p>והסבר קצר</p>
+                            <a href="electronics.html" class="w3-button w3-round-large">לכל החומרים</a>
+
+                        </div>
+                    </div>
+                </div>
+             
+                   <div class="item">
+                    <div style="width:100%; height:667px; background-color:palevioletred">
+                        <h1>2. מודל חצים</h1>
+                    </div>
+                </div>
+                
+                <div class="item">
+                    <div style="width:100%; height:667px;  background-color:lightblue">
+                        <h1>3. מכירות</h1>
+                    </div>
+                </div>
+      
+                <div class="item">
+                    <div style="width:100%; height:667px;  background-color:darkturquoise">
+                        <h1>4. דף אודות</h1>
+                    </div>
+                </div>
+              
+                
+            </div>
+
+            <!-- ORIG   Left and right controls -->
+            <a class="right carousel-control" href="#myCarousel" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-right"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="left carousel-control" href="#myCarousel" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-left"></span>
+                <span class="sr-only">Next</span>
+            </a>
+
+        
+        </div>
+    </div>
+</body>
+</html>

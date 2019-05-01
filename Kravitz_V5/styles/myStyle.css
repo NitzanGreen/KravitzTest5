@@ -1,0 +1,72 @@
+body 
+{
+    direction:rtl;
+}
+
+@media only screen and (max-width:700px) {
+  /* For mobile phones: */
+  .container{
+    width: 100%;
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+@media only screen and (max-height:200px) {
+  /* For mobile phones: */
+  .container{
+    height: 100px;
+  }
+}
+
+.carousel-control.left{
+background-image: linear-gradient(to right,rgba(0,0,0,.5) 0,rgba(0,0,0,.0001) 0) !important;
+}
+.carousel-control.right{
+background-image: linear-gradient(to right,rgba(0,0,0,.5) 0,rgba(0,0,0,.0001) 0) !important;
+}
+
+.carousel-indicators li{
+        width: 20px !important;
+    height: 20px !important;
+        border-radius: 15px !important;
+        margin:10px !important;
+}
+
+#moran.carousel-indicators {
+    margin:auto;
+}
+
+.carousel-indicators{
+     -webkit-appearance: none !important;
+}
+
+.carousel-indicators ol {
+    list-style:none;
+    margin: 0px;
+    padding: 0px;
+}
+
+.carousel-inner .item {
+    height: -webkit-fill-available;
+}
+.carousel-inner .item div{
+    height: -webkit-fill-available;
+}
+
+
+.w3-round-large{
+    background-color:antiquewhite;
+}
+
+#elec_div{
+    padding:20px;
+}
+
+
+
+/*swiper - this CSS belongs to index2*/
+
+.swiper-container {
+    width: 600px;
+    height: 300px;
+}
