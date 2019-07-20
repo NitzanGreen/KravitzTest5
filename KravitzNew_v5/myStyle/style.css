@@ -1,0 +1,65 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+body {
+    font-family: 'Open Sans Hebrew', Helvetica, sans-serif;
+}
+
+.icon-block {
+    padding: 0 15px;
+}
+
+    .icon-block .material-icons {
+        font-size: inherit;
+    }
+
+h1 {
+    line-height: 132%;
+    margin-right: 10%;
+    margin-top: 10%;
+}
+
+.line1H1 {
+    font-family: 'Open Sans Hebrew', Helvetica, sans-serif;
+    font-size: 40px !important;
+    color: #62c1c5 !important;
+    font-weight: bold !important;
+}
+
+.line2H1 {
+    font-family: 'Gveret Levin AlefAlefAlef' !important;
+    font-size: 35px !important;
+    color: #00666b !important;
+    font-weight: 100 !important;
+}
+
+.carouselText {
+    margin-right: 10%;
+}
+
+.carouselBtn {
+    text-align: center;
+    margin-left: 10%;
+    background-color: #f7a60f;
+    width: 120px;
+    height: 35px;
+    border-radius: 15px;
+    display: inline-block;
+    float: left;
+    font-size: 20px;
+    color: white;
+    margin-top: 5px;
+    padding: 4px 0;
+}
+
+.carousel .indicators {
+    padding: 0px !important;
+}
+
+img {
+    margin-top: 40px;
+}

@@ -1,0 +1,134 @@
+﻿
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!--CSS-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="myStyle/StyleSheet.css" rel="stylesheet" />
+
+    <!--- Scripts -->
+    <script src="js/jquery-1.12.0.min.js"></script>
+    <script src="bootstrap/js/bootstrap.js"></script>
+    <script src="js/JavaScriptAccordion.js"></script>
+
+</head>
+<body>
+    <div id="myContainer" class="animate-bottom">
+        <div id="myNav" class="overlay">
+            <div class="overlay-content">
+                <a href="index.html">בית</a>
+                <a href="p1_laptops.html">אלקטרוניקה בקטנה</a>
+                <a class="activePage" href="p2_hetzimModel.html">חצי"ם בלמידה</a>
+                <a href="p3_kazefets.html">קצפת's במכירה</a>
+                <a href="#">אודות</a>
+            </div>
+            <div class="closebtn" onclick="closeNav()">&times;</div>
+        </div>
+        <div id="topNavSticky">
+            <div style="height: 100px; width: 60px; position: fixed; top: 0;">
+                <div style="font-size:30px;cursor:pointer; color:white; background-color: #f7a60f; border-bottom-left-radius: 10px; border-bottom-right-radius: 10px; text-align:center;" onclick="openNav()">&#9776;</div>
+            </div>
+            <div id="topNavImage"></div>
+        </div>
+        <h1 id="topNavH1"></h1>
+        <div id="topPart" style="text-align: center;
+        margin-top: 17vh;">
+            <h2>אני רוצה להכיר מוצר חדש!</h2>
+            <img src="image/box.png" style="width: 35vh;margin-top: 5vh;">
+            <div style="margin-top:7vh;">
+                <div id="helpBtn" style="display:inline-block; background-color: #61c1c5; width: fit-content; border-radius: 1vh;margin-left: 15px;
+                 padding: 0.5vh;">
+                    <div style="margin: 1vh;color: white;font-weight: bold;    font-size: 20px;">
+                        אפשר עזרה?
+                    </div>
+                </div>
+                <div id="byMyselfBtn" style="display: inline-block;
+             display: inline-block;
+             background-color: #61c1c5;
+             width: fit-content;
+             border-radius: 1vh;
+             margin-right: 17px;
+             padding: 0.5vh;">
+                    <div style="margin: 1vh;
+             color: white;
+             font-weight: bold;    font-size: 20px;">
+                        רוצה בעצמי!
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="helpTab" style="margin-top: 4vh; margin-bottom: 50px;">
+            <div id="helpTabPart1">
+                <h3>איזה מוצר בא לך להכיר?</h3>
+                <table cellspacing="10" style="width:100%">
+                    <tbody>
+                        <tr>
+                            <th id="tab1" style="width:25%"><img src="image/computerIcon.png" style="width:80%" /></th>
+                            <th id="tab2" style="width:25%"><img src="image/printIcon.png" style="width:80%" /></th>
+                            <th id="tab3" style="width:25%"><img src="image/gameIcon.png" style="width:80%" /></th>
+                            <th id="tab4" style="width:25%"><img src="image/dokIcon.png" style="width:80%" /></th>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div id="helpTabPart2n3">
+                <div id="helpTabPart2">
+                    <h3>הכר את המוצר</h3>
+                    <p id="ProductExplanationHelpPart"></p>
+                </div>
+                <div id="helpTabPart3">
+                    <h3>חושבים חצי"ם</h3>
+                    <div id="accordionPanel">
+                        <button class="accordion hatzimAccordion" id="1">חלוקה למשפחות</button>
+                        <div class="panel">
+                            <p id="txt1"></p>
+                        </div>
+                        <button class="accordion hatzimAccordion" id="2">צורך שעליו עונה המוצר</button>
+                        <div class="panel">
+                            <p id="txt2"></p>
+                        </div>
+                        <button class="accordion hatzimAccordion" id="3">ייחודיות ותועלות</button>
+                        <div class="panel">
+                            <p id="txt3"></p>
+                        </div>
+                        <button class="accordion hatzimAccordion" id="4">מוצרים משלימים</button>
+                        <div class="panel">
+                            <p id="txt4"></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <nav class="mobile-bottom-nav">
+        <div class="mobile-bottom-nav__item" style="max-width: 50%;">
+            <a href="p2_hetzimModel.html">
+                <div class="mobile-bottom-nav__item-content">
+                    <i class="material-icons">
+                        <img src="image/computerIcon.png" />
+                    </i>
+                    חושבים חצי"ם
+                </div>
+            </a>
+        </div>
+        <div class="mobile-bottom-nav__item mobile-bottom-nav__item--activeRight" style="max-width: 50%;">
+            <a href="p2_hetzimModelMeetProduct.html">
+                <div class="mobile-bottom-nav__item-content">
+                    <i class="material-icons">
+                        <img src="image/box.png" />
+                    </i>
+                    רוצה לפגוש מוצר?
+                </div>
+            </a>
+        </div>
+    </nav>
+    <script>
+    /*אקורדיון*/
+        initAccordion();
+    /*סוף- אקורדיון*/
+    </script>
+</body>
+</html>

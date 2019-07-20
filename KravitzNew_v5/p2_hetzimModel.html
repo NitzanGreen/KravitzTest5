@@ -1,0 +1,175 @@
+﻿
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!--CSS-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="myStyle/StyleSheet.css" rel="stylesheet" />
+
+    <!--- Scripts -->
+    <script src="js/jquery-1.12.0.min.js"></script>
+    <script src="bootstrap/js/bootstrap.js"></script>
+    <script src="js/JavaScriptAccordion.js"></script>
+
+</head>
+<body onload="myFunction()">
+    <!--אנימציית טעינה-->
+    <!--<div id="loader">אנימציית טעינה</div>
+    <script>
+        var myVar;
+
+        function myFunction() {
+            myVar = setTimeout(showPage, 3000);
+        }
+
+        function showPage() {
+            document.getElementById("loader").style.display = "none";
+            document.getElementById("myContainer").style.display = "block";
+        }
+    </script>-->
+    <!--סוף-->
+    <div id="myContainer" class="animate-bottom">
+        <div id="myNav" class="overlay">
+            <div class="overlay-content">
+                <a href="index.html">בית</a>
+                <a href="p1_laptops.html">אלקטרוניקה בקטנה</a>
+                <a class="activePage" href="p2_hetzimModel.html">חצי"ם בלמידה</a>
+                <a href="p3_kazefets.html">קצפת's במכירה</a>
+                <a href="#">אודות</a>
+            </div>
+            <div class="closebtn" onclick="closeNav()">&times;</div>
+        </div>
+        <div id="topNavSticky">
+            <div style="height: 100px; width: 60px; position: fixed; top: 0;">
+                <div style="font-size:30px;cursor:pointer; color:white; background-color: #f7a60f; border-bottom-left-radius: 10px; border-bottom-right-radius: 10px; text-align:center;" onclick="openNav()">&#9776;</div>
+            </div>
+            <div id="topNavImage"></div>
+        </div>
+        <h1 id="topNavH1">חושבים חצי"ם</h1>
+
+        <div id="accordionPanel">
+
+            <button class="accordion accordionOne" id="families">חלוקה למשפחות</button>
+            <div class="panel">
+                <p>זיכרוןניתן לחלק את כלל המוצרים הנמכרים ברשת לכמה משפחות ראשיות, ובתוך כל משפחה ראשית לעוד מספר משפחות משניות.</p>
+                <p style="color:red; border:10px solid red;"><strong>פה תהייה טבלה - עוד בפיצוח</strong></p>
+
+                <div class="smallTip">
+                    <div>
+                        <img src="image/smallTipIcon.png" />
+                        שורה תחתונה
+                    </div>
+                    חלוקה למשפחות עושה סדר במוצרים ותעזור לך להתאים את המוצר הכי נכון ללקוח בזמן המכירה
+                </div>
+                <br />
+            </div>
+
+            <button class="accordion accordionOne" id="need">צורך שעליו עונה המוצר</button>
+            <div class="panel">
+                <p>חשוב להתמקד בשאלה "<strong>מהו הצורך שעליו עונה המוצר?</strong>"</p>
+                <p>
+                    האם מדובר בצרכי הנאה?
+                    <br />
+                    לדוגמה:
+                    <br />
+                    "המחשב ישמש למשחקים, צפייה בסרטים וגלישה באינטרנט"
+                </p>
+                <p>
+                    האם זהו צורך מקצועי?
+                    <br />
+                    לדוגמה:
+                    <br />
+                    "המחשב ישמש לעריכת תמונות וקבצי וידאו"
+                </p>
+                <p>
+                    האם אלה צרכים של קהל יעד ספציפי?
+                    <br />
+                    לדוגמה:
+                    <br />
+                    "המדפסת תשמש עובדי משרד להדפסה יום יומית בכמויות גדולות"
+                </p>
+
+                <div class="smallTip">
+                    <div>
+                        <img src="image/smallTipIcon.png" />
+                        שורה תחתונה
+                    </div>
+                    ברגע שיודעים מהו הצורך שעליו עונה מוצר מסוים – יהיה קל לשלוף את המוצר המתאים ביותר ללקוח שעומד מולנו בזמן מכירה.
+                </div>
+                <br />
+            </div>
+
+            <button class="accordion accordionOne" id="specialValue">ייחודיות ותועלות</button>
+            <div class="panel">
+                <p>
+                    מה מייחד את המוצר על פני מוצרים מאותה משפחה? איזו תועלת יש לו לעומת שאר המוצרים? האם יש פונקציות מיוחדת שהוא מספק, אולי העובדה שהוא מתממשק עם פריט/מוצר אחר שכבר יש ללקוח בבית?
+                    <br />
+                    דוגמאות:
+                    <ul>
+                        <li>עמידות בזכות קייס חיצוני קשיח – המוצר לא יישבר בקלות</li>
+                        <li>למוצר יש נפח זיכרון גדול שיאפשר לך שמירה של תמונות/קבצים מרובים</li>
+                        <li>משך סוללה ארוך כך שלא תצטרך לדאוג להטענה אחרי שימוש קצר</li>
+                        <li>המוצר משלב מספר טכנולוגיות כך שלא תצטרך להתחבר אליו עם כבל</li>
+                        <li>מחיר אטרקטיבי, המוצר הרגע במבצע</li>
+                    </ul>
+                    <div class="smallTip">
+                        <div>
+                            <img src="image/smallTipIcon.png" />
+                            שורה תחתונה
+                        </div>
+                        שימוש בתועלות המוצר בהתאם לצרכי הלקוח יסייעו במכירת המוצר והתאמתו ללקוח.
+                    </div>
+                    <br />
+            </div>
+            <button class="accordion accordionOne" id="Completers">מוצרים משלימים</button>
+            <div class="panel">
+                <p>חשוב לשייך מוצרים שיכולים או שצריכים להימכר ביחד, הן מבחינת השלמת הפונקציונאליות של המוצר והן מבחינת מוצרים שהם עזרים ומוצרי נוחות.</p>
+                <ul>
+                    <li>האם יש מוצר שבלעדיו המוצר לא יכול להתפקד? (מדפסת לא יכולה לעבוד בלי דיו; עכבר לא יכול לעבוד ללא סוללות)</li>
+                    <li>האם יש מוצר שיכול לשדרג את חווית השימוש? (אוזניות – קייס מגן, מחשב – תיק לפטופ, עכבר – משטח ג'ל מרופד)</li>
+                </ul>
+
+                <div class="smallTip">
+                    <div>
+                        <img src="image/smallTipIcon.png" />
+                        שורה תחתונה
+                    </div>
+                    התאמת מוצר משלים תחסוך ללקוח חזרה לחנות לרכישת מוצר משלים, וגם תגדיל את סל המכירה.
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <br />
+
+    <nav class="mobile-bottom-nav">
+        <div class="mobile-bottom-nav__item mobile-bottom-nav__item--activeRight" style="max-width: 50%;">
+            <a href="p2_hetzimModel.html">
+                <div class="mobile-bottom-nav__item-content">
+                    <i class="material-icons">
+                        <img src="image/computerIcon.png" />
+                    </i>
+                    חושבים חצי"ם
+                </div>
+            </a>
+        </div>
+        <div class="mobile-bottom-nav__item" style="max-width: 50%;">
+            <a href="p2_hetzimModelMeetProduct.html">
+                <div class="mobile-bottom-nav__item-content">
+                    <i class="material-icons">
+                        <img src="image/box.png" />
+                    </i>
+                    רוצה לפגוש מוצר?
+                </div>
+            </a>
+        </div>
+    </nav>
+    <script>
+        /*אקורדיון*/
+        initAccordion();
+        /*סוף- אקורדיון*/
+    </script>
+</body>
+</html>
