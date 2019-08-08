@@ -255,7 +255,7 @@ function setJsonToHtml() {
     $.ajax({
         // *** !!!!!!חשוב!!!!!! // ****
         // *** !!!כשמעלים לגיטהאב / שרת כלשהו  חשוב לעדכן את הקישר של הג'ייסון!!! /// ***
-        url: '/json/myJson.json',
+        url: 'https://nitzangreen.github.io/KravitzTest5/Kravitz_6.8/json/myJson.json',
         dataType: 'json',
         async: false,
         success: function (data) {
