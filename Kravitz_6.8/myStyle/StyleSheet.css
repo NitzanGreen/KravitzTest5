@@ -421,7 +421,7 @@ button:focus {
         color: #00666a;
         margin-top: -39px;
         background-color: white;
-        width: 120px;
+        width: 145px;
         padding: 10px;
         padding-top: 22px;
         text-align: center;
@@ -440,7 +440,7 @@ button:focus {
 }*/
 
 .didYouKnow div {
-    width: 60px;
+    width: 70px;
     padding-top: 25px;
     font-size: 18px;
 }
@@ -477,7 +477,7 @@ button:focus {
         color: #56c3c5;
         margin-top: -39px;
         background-color: white;
-        width: 135px;
+        width: 145px;
         padding: 10px;
         padding-top: 22px;
         text-align: center;
