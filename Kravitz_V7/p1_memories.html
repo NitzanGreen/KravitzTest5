@@ -1,0 +1,195 @@
+﻿
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>אלקטרוניקה בקצרה</title>
+
+    <!--CSS-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="myStyle/StyleSheet.css" rel="stylesheet" />
+
+    <!--- Scripts -->
+    <script src="js/jquery-1.12.0.min.js"></script>
+    <script src="bootstrap/js/bootstrap.js"></script>
+    <script src="js/JavaScriptAccordion.js"></script>
+
+</head>
+<body onload="myFunction()">
+    <!--אנימציית טעינה-->
+    <!--<div id="loader">אנימציית טעינה</div>
+    <script>
+        var myVar;
+
+        function myFunction() {
+            myVar = setTimeout(showPage, 3000);
+        }
+
+        function showPage() {
+            document.getElementById("loader").style.display = "none";
+            document.getElementById("myContainer").style.display = "block";
+        }
+    </script>-->
+    <!--סוף-->
+    <div id="myContainer" class="animate-bottom">
+        <div id="myNav" class="overlay">
+            <div class="overlay-content">
+                <a href="index.html">בית</a>
+                <a class="activePage" href="p1_laptops.html">אלקטרוניקה בקצרה</a>
+                <a href="p2_hetzimModel.html">חצי"ם בלמידה</a>
+                <a href="p3_kazefets.html">קצפת's במכירה</a>
+                <a href="p4_About.html">אודות</a>
+            </div>
+            <div class="closebtn" onclick="closeNav()">&times;</div>
+        </div>
+        <div id="topNavSticky">
+            <div style="height: 100px; width: 60px; position: fixed; top: 0;">
+                <div style="font-size:30px;cursor:pointer; color:white; background-color: #f7a60f; border-bottom-left-radius: 10px; border-bottom-right-radius: 10px; text-align:center;" onclick="openNav()">&#9776;</div>
+            </div>
+            <div id="topNavImage"></div>
+        </div>
+        <h1 id="topNavH1">זכרונות</h1>
+        <div id="accordionPanel">
+            <button class="accordion accordionOne" id="DOK">דיסק-און-קי</button>
+            <div class="panel">
+                <p>מכשיר קטן מאוד לאחסון נתונים למחשב, המשתמש בזיכרון (Flash) לאחסון נתונים ובממשק ה-USB של המחשב להעברת הנתונים אל המחשב או ממנו. המכשיר מגיע בנפחי מידע נמוכים יחסית (בין 4 ל-128 GB) ואינו מיועד לאחסון מידע רב אלא בעיקר להעברת מידע ממכשיר למכשיר באופן נגיש וקל. </p>
+                <p>ברשת נמכרים בעיקר DOK של חברת SanDisk.</p>
+                <div class="remember didYouKnow">
+                    <div>
+                        הידעת?
+                    </div>
+                    דיסק-און-קי הוא המצאה ישראלית!
+                </div>
+                <br />
+            </div>
+            <button class="accordion accordionOne" id="externalDrive">כונן קשיח חיצוני</button>
+            <div class="panel">
+                <p>זיכרון נייד שנמצא מחוץ למארז המחשב ומיועד לאחסון מידע רב (1-3 TB). זהו למעשה דיסק קשיח רגיל, אשר מורכב בתוך מארז עצמאי ומתחבר למחשב בדרך כלל באמצעות כבל USB.</p>
+                <p>השימוש העיקרי בכונן קשיח הוא אחסון חומרים רבים לגיבוי, לדוגמה חומרי לימוד של סטודנטים, תמונות וקבצים חשובים של משפחה, מסמכים חשובים של משרד וכד'. כונן קשיח לרוב לא משמש להעברת מידע ממקום למקום.</p>
+                <p>ברשת נמכרים בעיקר כוננים מסוג WD של חברת סופרן סחר.</p>
+
+            </div>
+            <button class="accordion accordionOne" id="cloud">ענן</button>
+            <div class="panel">
+                <p>בשנים האחרונות אנשים משתמשים בשירותי ענן - שרתים מרוחקים בהם ניתן לאחסן את הקבצים והתכנים שלנו. הענן הוא מקום אחסון וגיבוי פשוט ויעיל לשיתוף. ישנם שרתי ענן מרוחקים בתשלום, אך ניתן גם לרכוש ענן ביתי שמגן על הפרטיות שלנו, כמו My Cloud של חברת WD.</p>
+                <p>בשרתי ענן לרוב ניתן לקבל שטח אחסון גדול במיוחד, כמו 8-10 TB.</p>
+                <div class="smallTip" style="padding: 1px 15px 1px 15px;">
+                    <div>
+                        <img src="image/smallTipIcon.png" />
+                        טיפ קטן
+                    </div>
+                    <p><strong>כיצד נדע איזה סוג זיכרון להציע ללקוח?</strong></p>
+                    <p>בעיקר באמצעות הבנת הצורך שלו,  והסבר על כמות המידע שניתן לאחסן בזיכרון הנרכש.</p>
+                    <p>מומלץ לשדרג את נפח הזיכרון של המוצר בעת הרכישה.</p>
+                </div>
+                <br />
+            </div>
+
+            <button class="accordion accordionOne" id="meetCustomerIcon">
+                <img src="image/meetCustomerIcon.png" />
+                רוצה לפגוש לקוח?
+            </button>
+            <div class="panel" id="meetCustomerQuestion">
+                <div>
+                    <div>
+                        <img src="image/avatar.png" />
+                        <div class="speech_bubble">
+                            שלום, אני צריכה לשלוח לחברה שלי קובץ חשוב אבל הוא לא עובר במייל! איך אפשר להעביר את זה למחשב שלה?
+                        </div>
+                    </div>
+                    <div style="text-align: -webkit-center;">
+                        <table cellspacing="10" style="width:50%">
+                            <tr>
+                                <th style="width:25%; color: red; font-size: larger;text-align: left;"><div id="tIcon">&#10004</div></th>
+                                <th id="t" class="moran" style="width:75%">דיסק-און-קי</th>
+                            </tr>
+                            <tr>
+                                <th style="width:25%; color: red; font-size: larger; text-align: left;"><div id="f1Icon">&#10006</div></th>
+                                <th style="width:75%" id="f1" class="moran">כונן קשיח</th>
+                            </tr>
+                            <tr>
+                                <th style="width:25%; color: red; font-size: larger; text-align: left;"><div id="f2Icon">&#10006</div></th>
+                                <th style="width:75%" id="f2" class="moran">ענן</th>
+                            </tr>
+                        </table>
+                    </div>
+                    <div id="q22">
+                        <div>
+                            <img src="image/avatar.png" />
+                            <div class="speech_bubble">
+                                אהלן, אני צלם חתונות ואין לי מקום במחשב לכל התמונות! אני צריך המון המון שטח, יש לזה פתרון?
+                            </div>
+                        </div>
+                        <div style="text-align: -webkit-center;">
+                            <table cellspacing="10" style="width:50%">
+                                <tr>
+                                    <th style="width:25%; color: red; font-size: larger;text-align: left;"><div id="tIcon2">&#10004</div></th>
+                                    <th id="t2" class="moran" style="width:75%">לקנות מספר כוננים קשיחים</th>
+                                </tr>
+                                <tr>
+                                    <th style="width:25%; color: red; font-size: larger; text-align: left;"><div id="f1Icon2">&#10006</div></th>
+                                    <th style="width:75%" id="f12" class="moran">לקנות ענן פרטי</th>
+                                </tr>
+                                <tr>
+                                    <th style="width:25%; color: red; font-size: larger; text-align: left;"><div id="f2Icon2">&#10006</div></th>
+                                    <th style="width:75%" id="f22" class="moran">לחלק לכל לקוח דיסק-און-קי</th>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br />
+
+    <nav class="mobile-bottom-nav">
+        <div class="mobile-bottom-nav__item"style="max-width: 25%;">
+            <a href="p1_laptops.html">
+                <div class="mobile-bottom-nav__item-content">
+                    <i class="material-icons">
+                        <img src="image/computerIcon.png" />
+                    </i>
+                    ניידים
+                </div>
+            </a>
+        </div>
+        <div class="mobile-bottom-nav__item"style="max-width: 25%;">
+            <a href="p1_printers.html">
+                <div class="mobile-bottom-nav__item-content">
+                    <i class="material-icons">
+                        <img src="image/printIcon.png" />
+                    </i>
+                    מדפסות
+                </div>
+            </a>
+        </div>
+        <div class="mobile-bottom-nav__item"style="max-width: 25%;">
+            <a href="p1_gaming.html">
+                <div class="mobile-bottom-nav__item-content">
+                    <i class="material-icons">
+                        <img src="image/gameIcon.png" />
+                    </i>
+                    גיימינג
+                </div>
+            </a>
+        </div>
+
+        <div class="mobile-bottom-nav__item mobile-bottom-nav__item--activeRight" style="max-width: 25%;">
+            <a href="p1_memories.html">
+                <div class="mobile-bottom-nav__item-content">
+                    <i class="material-icons">
+                        <img src="image/dokIcon.png" />
+                    </i>
+                    זיכרונות
+                </div>
+            </a>
+        </div>
+    </nav>
+    <script>
+        /*אקורדיון*/
+        initAccordion();
+        /*סוף- אקורדיון*/
+    </script>
+</body>
+</html>

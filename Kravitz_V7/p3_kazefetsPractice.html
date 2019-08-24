@@ -1,0 +1,120 @@
+﻿
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>קצפת's במכירה</title>
+
+    <!--CSS-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="myStyle/StyleSheet.css" rel="stylesheet" />
+
+    <!--- Scripts -->
+    <script src="js/jquery-1.12.0.min.js"></script>
+    <script src="bootstrap/js/bootstrap.js"></script>
+    <script src="js/JavaScriptAccordion.js"></script>
+
+</head>
+<body onload="myFunction()">
+    <!--אנימציית טעינה-->
+    <!--<div id="loader">אנימציית טעינה</div>
+    <script>
+        var myVar;
+
+        function myFunction() {
+            myVar = setTimeout(showPage, 3000);
+        }
+
+        function showPage() {
+            document.getElementById("loader").style.display = "none";
+            document.getElementById("myContainer").style.display = "block";
+        }
+    </script>-->
+    <!--סוף-->
+    <div id="myContainer" class="animate-bottom">
+        <div id="myNav" class="overlay">
+            <div class="overlay-content">
+                <a href="index.html">בית</a>
+                <a href="p1_laptops.html">אלקטרוניקה בקצרה</a>
+                <a href="p2_hetzimModel.html">חצי"ם בלמידה</a>
+                <a class="activePage" href="p3_kazefets.html">קצפת's במכירה</a>
+                <a href="p4_About.html">אודות</a>
+            </div>
+            <div class="closebtn" onclick="closeNav()">&times;</div>
+        </div>
+        <div id="topNavSticky">
+            <div style="height: 100px; width: 60px; position: fixed; top: 0;">
+                <div style="font-size:30px;cursor:pointer; color:white; background-color: #f7a60f; border-bottom-left-radius: 10px; border-bottom-right-radius: 10px; text-align:center;" onclick="openNav()">&#9776;</div>
+            </div>
+            <div id="topNavImage"></div>
+        </div>
+        <h1 id="topNavH1">קצפת's - תרגול</h1>
+        <h3 style="text-align:center;">צפו בסרטונים, ולאחר כל סרטון ענו על השאלה</h3>
+        <div id="accordionPanel">
+            <button class="accordion accordionOne" id="closeness">סרטון 1 מתוך 4</button>
+            <div class="panel" video-id="Zzyfcys1aLM" insert-first>
+                <div class="kazefetQuestion">שאלה 1 מתוך 4</div>
+            </div>
+
+
+            <button class="accordion accordionOne" id="need">סרטון 2 מתוך 4</button>
+            <div class="panel" video-id="7Xf-Lesrkuc" insert-first>
+                <div class="kazefetQuestion">שאלה 2 מתוך 4</div>
+            </div>
+
+
+            <button class="accordion accordionOne" id="solution">סרטון 3 מתוך 4</button>
+            <div class="panel" video-id="RFzZ-xpyfoo" insert-first>
+                <div class="kazefetQuestion">שאלה 3 מתוך 4</div>
+            </div>
+
+            <button class="accordion accordionOne" id="value">סרטון 4 מתוך 4</button>
+            <div class="panel" video-id="DL7-CKirWZE" insert-first>
+                <div class="kazefetQuestion">שאלה 2 מתוך 4</div>
+            </div>
+
+           
+        </div>
+    </div>
+
+    <br />
+
+    <nav class="mobile-bottom-nav">
+        <div class="mobile-bottom-nav__item " style="max-width: 33.3%;">
+            <a href="p3_kazefets.html">
+                <div class="mobile-bottom-nav__item-content">
+                    <i class="material-icons">
+                        <img src="image/money2.png" />
+                    </i>
+                    מודל קצפת's
+                </div>
+            </a>
+        </div>
+        <div class="mobile-bottom-nav__item " style="max-width: 33.3%;">
+            <a href="p3_kazefetsDoDont.html">
+                <div class="mobile-bottom-nav__item-content">
+                    <i class="material-icons">
+                        <img src="image/do_dont3.png" style="width:50px;" />
+                    </i>
+                    עשה ואל תעשה
+                </div>
+            </a>
+        </div>
+        <div class="mobile-bottom-nav__item mobile-bottom-nav__item--activeRight" style="max-width: 33.3%;">
+            <a href="p3_kazefetsPractice.html">
+                <div class="mobile-bottom-nav__item-content">
+                    <i class="material-icons">
+                        <img src="image/practice.png" style="width:20px;" />
+                    </i>
+                    תרגול
+                </div>
+            </a>
+        </div>
+    </nav>
+    <script>
+        /*אקורדיון*/
+        initAccordion();
+        /*סוף- אקורדיון*/
+    </script>
+</body>
+</html>
