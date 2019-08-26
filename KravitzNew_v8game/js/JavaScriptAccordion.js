@@ -718,7 +718,7 @@ function setJsonToHtml2() {
 function loop() {
     $.ajax({
         dataType: 'json',
-        url: '/json/myJson.json',
+        url: 'json/myJson.json',
         async: false,
         success: function (data) {
 
