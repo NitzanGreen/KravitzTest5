@@ -490,7 +490,7 @@ function startGame() {
 function setJsonToHtml2() {
     $.ajax({
         dataType: 'json',
-        url: '/json/myJson.json',
+        url: 'json/myJson.json',
         async: false,
         success: function (data) {
 
