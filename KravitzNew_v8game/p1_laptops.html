@@ -1,0 +1,233 @@
+﻿
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>אלקטרוניקה בקצרה</title>
+
+    <!--CSS-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="myStyle/StyleSheet.css" rel="stylesheet" />
+
+    <!--- Scripts -->
+    <script src="js/jquery-1.12.0.min.js"></script>
+    <script src="bootstrap/js/bootstrap.js"></script>
+    <script src="js/JavaScriptAccordion.js"></script>
+
+</head>
+<body>
+    <div id="myContainer">
+        <!--תפריט ניווט המבורגר-->
+        <div id="myNav" class="overlay">
+            <div class="overlay-content">
+                <a href="index.html">בית</a>
+                <a class="activePage" href="p1_laptops.html">אלקטרוניקה בקצרה</a>
+                <a href="p2_hetzimModel.html">חצי"ם בלמידה</a>
+                <a href="p3_kazefets.html">קצפת's במכירה</a>
+                <a href="p4_About.html">אודות</a>
+            </div>
+            <div class="closebtn" onclick="closeNav()">&times;</div>
+        </div>
+        <div id="topNavSticky">
+            <div id="hamburgerNav1">
+                <div id="hamburgerNav2" class="shadowAll" onclick="openNav()">&#9776;</div>
+            </div>
+            <div id="topNavImage"></div>
+        </div>
+        <div class="animate-bottom">
+            <h1 id="topNavH1">ניידים</h1>
+            <div id="accordionPanel">
+                <button class="accordion accordionOne shadowAll" id="processor">מעבד</button>
+                <div class="panel">
+                    <p>המעבד <strong>(CPU)</strong> הוא רכיב חומרה המשתמש כ"מוח" של המחשב: כמו שהמוח שלנו נותן לגוף פקודות (הליכה, דיבור) ומבצע פעולות חשיבה ועיבוד מידע, כך המעבד מבצע פקודות (הרצת תוכנות, הצגת תוכן) ופעולות לוגיות.</p>
+                    <p>קיימות בעולם מספר חברות שמייצרות מעבדים. בישראל החברה השולטת בשוק היא חברת אינטל, עם סדרת מעבדי Core:</p>
+                    <p>
+                        <strong>GOOD - Intel®Core™ i3</strong><br />
+                        ביצועים ומהירות ללא הפסקה. חיי סוללה ממושכים. ויסות חכם של המחשב לפי השימוש. מתאים לגלישה באינטרנט ויישומי אופיס בסיסיים.
+                    </p>
+                    <p>
+                        <strong>BETTER - Intel®Core™ i5</strong><br />
+                        טכנולוגיית Turbo Boost: פרץ אוטומטי של מהירות בזמן עומס. מתאים לצפייה ישירה באינטרנט והורדת קבצים.
+                    </p>
+                    <p>
+                        <strong>BEST - Intel®Core™ i7 </strong><br />
+                        סדרת מעבדים למשימות הדורשות שימוש מאומץ במעבד, ומאפשרת איכות תלת מימד ו-HD גבוהה מאוד. קהל היעד של מעבדי Core i7 הם גרפיקאים, אנשי מוזיקה, ארכיטקטים ואנשי מקצוע שעושים שימוש בתוכנות כבדות רבות במקביל רבים, וכמובן שגם גיימרים וביצועיסטים. כולל intel turbo boost.
+                    </p>
+                    <div class="smallTip">
+                        <div>
+                            <img src="image/smallTipIcon.png" />
+                            טיפ קטן
+                        </div>
+                        ככל שהמעבד מסדרה חדשה יותר, ככה הוא יצרוך פחות סוללה!
+                        <br />
+                        ככל שהמעבד חזק יותר (לדוגמה i7 לעומת i3) יהיה ניתן לעבוד עם תוכנות מורכבות יותר.
+                    </div>
+                    <br />
+                </div>
+                <button class="accordion accordionOne shadowAll" id="RAM">זיכרון RAM </button>
+                <div class="panel">
+                    <p>זיכרון <strong>Random Access Memory)</strong> RAM)  הוא למעשה "צינור" ממנו עוברים מערכת ההפעלה, יישומי התוכנה והנתונים שבשימוש מידי מהזיכרון של המחשב אל המעבד ובחזרה.</p>
+                    <p>זיכרון ה-RAM מסייע למהירות פעילות המחשב, וככל שהוא גדול יותר, כך האינפורמציה תזרום טוב יותר.</p>
+                    <div class="smallTip">
+                        <div>
+                            <img src="image/smallTipIcon.png" />
+                            טיפ קטן
+                        </div>
+                        כשלקוח שואל על "הזיכרון של המחשב" הכוונה היא לרוב לזיכרון RAM.
+                    </div>
+                    <br />
+                </div>
+                <button class="accordion accordionOne shadowAll" id="hardDisk">דיסק קשיח</button>
+                <div class="panel">
+                    <p>דיסק קשיח <strong>(Hard Disc)</strong> הוא רכיב במחשב המשמש לאחסון מידע. ככל שנפח הדיסק (GB) גדול יותר, כך ניתן לאחסן במחשב מידע רב יותר.</p>
+                    <p>דיסק קשיח סטנדרטי עובד <strong>באופן אנלוגי</strong> ולכן אם המחשב מקבל מכה או זעזוע כלשהו, יתכן ותיווצר בדיסק הקשיח שריטה והמידע יפגע.</p>
+                    <p>כיום קיים דיסק קשיח חדש הפועל <strong>באופן דיגיטלי</strong>: Solid State Drive) SSD). דיסק קשיח כזה הוא מהיר יותר ועמיד יותר מאשר הגרסה האנלוגית הישנה.</p>
+                    <div class="smallTip">
+                        <div>
+                            <img src="image/smallTipIcon.png" />
+                            טיפ קטן
+                        </div>
+                        תמיד מומלץ להציע ללקוח מחשב בעל דיסק קשיח מסוג SSD!
+                    </div>
+                    <br />
+                </div>
+                <button class="accordion accordionOne shadowAll" id="graphicsCard">כרטיס מסך</button>
+                <div class="panel">
+                    <p>כרטיס המסך במחשב (כרטיס גרפי) קובע את איכות התצוגה על גבי המסך. כרטיסי מסך הם מעבדים בפני עצמם, יש להם מעבד גרפי משלהם והם עושים הרבה מעבודת העיבוד שבעבר נעשתה על ידי המעבד המרכזי של המחשב.</p>
+                </div>
+                <button class="accordion accordionOne shadowAll" id="OS">מערכת הפעלה</button>
+                <div class="panel">
+                    <p>תוכנה המנהלת את משאבי החומרה והתוכנה במחשב. מערכת ההפעלה היא בעצם התוכנה הראשונה שעולה עם הדלקת המחשב והיא זו המאפשרת לו לפעול.</p>
+                    <p>מערכות הפעלה הנפוצות ביותר הן: Windows של Microsoft ו-macOS של חברת אפל.</p>
+                </div>
+                <button class="accordion accordionOne shadowAll" id="completersLaptop">מוצרים משלימים</button>
+                <div class="panel">
+                    <p>חשוב תמיד להציע ללקוח מוצרים משלימים, הן לנוחותו והן לצורך הגדלת מכירות!</p>
+                    <ul>
+                        <li>תיק לפטופ או קייס</li>
+                        <li>עכבר אלחוטי ופד</li>
+                        <li>כונן זיכרון נייד</li>
+                        <li>דיסק און קי</li>
+                    </ul>
+                </div>
+                <button class="accordion accordionOne shadowAll" id="meetCustomerIcon">
+                    <img src="image/meetCustomerIcon.png" />
+                    רוצה לפגוש לקוח?
+                </button>
+                <div class="panel" id="meetCustomerQuestion">
+                    <div>
+                        <div>
+                            <img src="image/meetCustomer/meetCustomer_1.png" />
+                            <div class="speech_bubble">
+                                היי, אני צריך מחשב חדש. חשוב לי שהמחשב יוכל להריץ תוכנות עיצוב כבדות כמו פוטושופ כי אני סטודנט לעיצוב.<br />
+                                למה חשוב לשים לב כשאני בוחר מחשב?
+                            </div>
+                        </div>
+                        <div style="text-align: -webkit-center;">
+                            <table cellspacing="10" style="width:100%">
+                                <tr>
+                                    <th style="width:10%;">
+                                        <div class="tIcon">&nbsp</div>
+                                    </th>
+                                    <th id="t" class="ansShape ansBGcolor shadowAll" style="width:90%">מעבד חזק</th>
+                                </tr>
+                                <tr>
+                                    <th style="width:10%;">
+                                        <div class="fIcon1">&nbsp</div>
+                                    </th>
+                                    <th style="width:90%" id="f1" class="ansShape ansBGcolor shadowAll">מסך קטן</th>
+                                </tr>
+                                <tr>
+                                    <th style="width:10%;">
+                                        <div class="fIcon2">&nbsp</div>
+                                    </th>
+                                    <th style="width:90%" id="f2" class="ansShape ansBGcolor shadowAll">יציאת USB</th>
+                                </tr>
+                            </table>
+                        </div>
+                        <div id="q22">
+                            <div>
+                                <img src="image/meetCustomer/meetCustomer_1.png" />
+                                <div class="speech_bubble">
+                                    במחשבים שהצעת לי יש מעבדים Intel iCore עם מספרים... מה הכי טוב לגרפיקה?
+                                </div>
+                            </div>
+                            <div style="text-align: -webkit-center;">
+                                <table cellspacing="10" style="width:100%">
+                                    <tr>
+                                        <th style="width:10%;">
+                                            <div class="tIcon2">&nbsp</div>
+                                        </th>
+                                        <th id="t2" class="ansShape ansBGcolor shadowAll" style="width:90%">i7</th>
+                                    </tr>
+                                    <tr>
+                                        <th style="width:10%;">
+                                            <div class="fIcon12">&nbsp</div>
+                                        </th>
+                                        <th style="width:90%" id="f12" class="ansShape ansBGcolor shadowAll">i3</th>
+                                    </tr>
+                                    <tr>
+                                        <th style="width:10%;">
+                                            <div class="fIcon22">&nbsp</div>
+                                        </th>
+                                        <th style="width:90%" id="f22" class="ansShape ansBGcolor shadowAll">i5</th>
+                                    </tr>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br />
+    <nav class="mobile-bottom-nav">
+        <div class="mobile-bottom-nav__item mobile-bottom-nav__item--activeRight" style="max-width: 25%;">
+            <a href="p1_laptops.html">
+                <div class="mobile-bottom-nav__item-content">
+                    <i class="material-icons">
+                        <img src="image/navIcon/nav1_icon1.png" />
+                    </i>
+                    ניידים
+                </div>
+            </a>
+        </div>
+        <div class="mobile-bottom-nav__item" style="max-width: 25%;">
+            <a href="p1_printers.html">
+                <div class="mobile-bottom-nav__item-content">
+                    <i class="material-icons">
+                        <img src="image/navIcon/nav1_icon2.png" />
+                    </i>
+                    מדפסות
+                </div>
+            </a>
+        </div>
+        <div class="mobile-bottom-nav__item" style="max-width: 25%;">
+            <a href="p1_gaming.html">
+                <div class="mobile-bottom-nav__item-content">
+                    <i class="material-icons">
+                        <img src="image/navIcon/nav1_icon3.png" />
+                    </i>
+                    גיימינג
+                </div>
+            </a>
+        </div>
+
+        <div class="mobile-bottom-nav__item" style="max-width: 25%;">
+            <a href="p1_memories.html">
+                <div class="mobile-bottom-nav__item-content">
+                    <i class="material-icons">
+                        <img src="image/navIcon/nav1_icon4.png" />
+                    </i>
+                    זיכרונות
+                </div>
+            </a>
+        </div>
+    </nav>
+    <script>
+        /*אקורדיון*/
+        initAccordion();
+        /*סוף- אקורדיון*/
+    </script>
+</body>
+</html>

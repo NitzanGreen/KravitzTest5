@@ -1,0 +1,224 @@
+﻿
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>קצפת's במכירה</title>
+
+    <!--CSS-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="myStyle/StyleSheet.css" rel="stylesheet" />
+
+    <!--- Scripts -->
+    <script src="js/jquery-1.12.0.min.js"></script>
+    <script src="bootstrap/js/bootstrap.js"></script>
+    <script src="js/JavaScriptAccordion.js"></script>
+
+</head>
+<body>
+    <div id="myContainer">
+        <div id="myNav" class="overlay">
+            <div class="overlay-content">
+                <a href="index.html">בית</a>
+                <a href="p1_laptops.html">אלקטרוניקה בקצרה</a>
+                <a href="p2_hetzimModel.html">חצי"ם בלמידה</a>
+                <a class="activePage" href="p3_kazefets.html">קצפת's במכירה</a>
+                <a href="p4_About.html">אודות</a>
+            </div>
+            <div class="closebtn" onclick="closeNav()">&times;</div>
+        </div>
+        <div id="topNavSticky">
+            <div id="hamburgerNav1">
+                <div id="hamburgerNav2" class="shadowAll" onclick="openNav()">&#9776;</div>
+            </div>
+            <div id="topNavImage"></div>
+        </div>
+        <div class="animate-bottom">
+            <h1 id="topNavH1">תרגול בקטנה</h1>
+            <div>
+                <img style="width: 10em;float: left;margin-bottom: 1.5em;margin-top: -4em; margin-left: 0.5em;" src="image/acordion_pic3-01.png" />
+                <p style="text-align: right; margin-top: 5em; width: 15em">צפו בסרטונים, ולאחר כל סרטון ענו על השאלה</p>
+            </div>
+            <div id="accordionPanel">
+                <button class="accordion accordionOne" id="closeness">סרטון 1</button>
+                <div class="panel" video-id="Zzyfcys1aLM" insert-first>
+                    <div class="kazefetQuestion">
+                        <div>
+                            <img src="image/meetCustomer/vyond_avatar.png" />
+                            <div class="speech_bubble">
+                                שאלה1
+                            </div>
+                        </div>
+                        <div style="text-align: -webkit-center;">
+                            <table cellspacing="10" style="width:100%">
+                                <tr>
+                                    <th style="width:10%;">
+                                        <div class="tIcon">&nbsp</div>
+                                    </th>
+                                    <th id="t" class="ansShape ansBGcolor shadowAll" style="width:90%">נכון</th>
+                                </tr>
+                                <tr>
+                                    <th style="width:10%;">
+                                        <div class="fIcon1">&nbsp</div>
+                                    </th>
+                                    <th style="width:90%" id="f1" class="ansShape ansBGcolor shadowAll">טעות1</th>
+                                </tr>
+                                <tr>
+                                    <th style="width:10%;">
+                                        <div class="fIcon2">&nbsp</div>
+                                    </th>
+                                    <th style="width:90%" id="f2" class="ansShape ansBGcolor shadowAll">טעות2</th>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+
+                <button class="accordion accordionOne shadowAll" id="need">סרטון 2</button>
+                <div class="panel" video-id="7Xf-Lesrkuc" insert-first>
+                    <div class="kazefetQuestion">
+                        <div>
+                            <img src="image/meetCustomer/vyond_avatar.png" />
+                            <div class="speech_bubble">
+                                שאלה2
+                            </div>
+                        </div>
+                        <div style="text-align: -webkit-center;">
+                            <table cellspacing="10" style="width:100%">
+                                <tr>
+                                    <th style="width:10%;">
+                                        <div class="tIcon">&nbsp</div>
+                                    </th>
+                                    <th id="t" class="ansShape ansBGcolor shadowAll" style="width:90%">נכון</th>
+                                </tr>
+                                <tr>
+                                    <th style="width:10%;">
+                                        <div class="fIcon1">&nbsp</div>
+                                    </th>
+                                    <th style="width:90%" id="f1" class="ansShape ansBGcolor shadowAll">טעות1</th>
+                                </tr>
+                                <tr>
+                                    <th style="width:10%;">
+                                        <div class="fIcon2">&nbsp</div>
+                                    </th>
+                                    <th style="width:90%" id="f2" class="ansShape ansBGcolor shadowAll">טעות2</th>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+
+                <button class="accordion accordionOne shadowAll" id="solution">סרטון 3</button>
+                <div class="panel" video-id="RFzZ-xpyfoo" insert-first>
+                    <div class="kazefetQuestion">
+                        <div>
+                            <img src="image/meetCustomer/vyond_avatar.png" />
+                            <div class="speech_bubble">
+                                שאלה3
+                            </div>
+                        </div>
+                        <div style="text-align: -webkit-center;">
+                            <table cellspacing="10" style="width:100%">
+                                <tr>
+                                    <th style="width:10%;">
+                                        <div class="tIcon">&nbsp</div>
+                                    </th>
+                                    <th id="t" class="ansShape ansBGcolor shadowAll" style="width:90%">נכון</th>
+                                </tr>
+                                <tr>
+                                    <th style="width:10%;">
+                                        <div class="fIcon1">&nbsp</div>
+                                    </th>
+                                    <th style="width:90%" id="f1" class="ansShape ansBGcolor shadowAll">טעות1</th>
+                                </tr>
+                                <tr>
+                                    <th style="width:10%;">
+                                        <div class="fIcon2">&nbsp</div>
+                                    </th>
+                                    <th style="width:90%" id="f2" class="ansShape ansBGcolor shadowAll">טעות2</th>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+
+                <button class="accordion accordionOne shadowAll" id="value">סרטון 4</button>
+                <div class="panel" video-id="DL7-CKirWZE" insert-first>
+                    <div class="kazefetQuestion">
+                        <div>
+                            <img src="image/meetCustomer/vyond_avatar.png" />
+                            <div class="speech_bubble">
+                                שאלה4
+                            </div>
+                        </div>
+                        <div style="text-align: -webkit-center;">
+                            <table cellspacing="10" style="width:100%">
+                                <tr>
+                                    <th style="width:10%;">
+                                        <div class="tIcon">&nbsp</div>
+                                    </th>
+                                    <th id="t" class="ansShape ansBGcolor shadowAll" style="width:90%">נכון</th>
+                                </tr>
+                                <tr>
+                                    <th style="width:10%;">
+                                        <div class="fIcon1">&nbsp</div>
+                                    </th>
+                                    <th style="width:90%" id="f1" class="ansShape ansBGcolor shadowAll">טעות1</th>
+                                </tr>
+                                <tr>
+                                    <th style="width:10%;">
+                                        <div class="fIcon2">&nbsp</div>
+                                    </th>
+                                    <th style="width:90%" id="f2" class="ansShape ansBGcolor shadowAll">טעות2</th>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+
+    <br />
+
+    <nav class="mobile-bottom-nav">
+        <div class="mobile-bottom-nav__item " style="max-width: 33.3%;">
+            <a href="p3_kazefets.html">
+                <div class="mobile-bottom-nav__item-content">
+                    <i class="material-icons">
+                        <img src="image/navIcon/nav3_icon1.png" />
+                    </i>
+                    מודל קצפת's
+                </div>
+            </a>
+        </div>
+        <div class="mobile-bottom-nav__item " style="max-width: 33.3%;">
+            <a href="p3_kazefetsDoDont.html">
+                <div class="mobile-bottom-nav__item-content">
+                    <i class="material-icons">
+                        <img src="image/navIcon/nav3_icon2.png" />
+                    </i>
+                    עשה ואל תעשה
+                </div>
+            </a>
+        </div>
+        <div class="mobile-bottom-nav__item mobile-bottom-nav__item--activeRight" style="max-width: 33.3%;">
+            <a href="p3_kazefetsPractice.html">
+                <div class="mobile-bottom-nav__item-content">
+                    <i class="material-icons">
+                        <img src="image/practice.png" style="width:20px;" />
+                    </i>
+                    תרגול
+                </div>
+            </a>
+        </div>
+    </nav>
+    <script>
+        /*אקורדיון*/
+        initAccordion();
+        /*סוף- אקורדיון*/
+    </script>
+</body>
+</html>

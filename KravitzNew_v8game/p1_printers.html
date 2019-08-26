@@ -1,0 +1,259 @@
+﻿
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>אלקטרוניקה בקצרה</title>
+
+    <!--CSS-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="myStyle/StyleSheet.css" rel="stylesheet" />
+
+    <!--- Scripts -->
+    <script src="js/jquery-1.12.0.min.js"></script>
+    <script src="bootstrap/js/bootstrap.js"></script>
+    <script src="js/JavaScriptAccordion.js"></script>
+
+</head>
+<body>
+    <div id="myContainer">
+        <div id="myNav" class="overlay">
+            <div class="overlay-content">
+                <a href="index.html">בית</a>
+                <a class="activePage" href="p1_laptops.html">אלקטרוניקה בקצרה</a>
+                <a href="p2_hetzimModel.html">חצי"ם בלמידה</a>
+                <a href="p3_kazefets.html">קצפת's במכירה</a>
+                <a href="p4_About.html">אודות</a>
+            </div>
+            <div class="closebtn" onclick="closeNav()">&times;</div>
+        </div>
+        <div id="topNavSticky">
+            <div id="hamburgerNav1">
+                <div id="hamburgerNav2" class="shadowAll" onclick="openNav()">&#9776;</div>
+            </div>
+            <div id="topNavImage"></div>
+        </div>
+        <div class="animate-bottom">
+            <h1 id="topNavH1">מדפסות</h1>
+
+            <div id="accordionPanel">
+                <button class="accordion accordionOne shadowAll" id="inkHeads">ראשי דיו וטונרים</button>
+                <div class="panel">
+                    <p>קיימים שני סוגי מיכלי צבע למדפסות: ראשי דיו שמכילים דיו נוזלי, וטונרים שמכילים אבקה.</p>
+                    <p>המיכלים מגיעים בצבע שחור, או בצבעים: מג'נטה (ורוד), ציאן (כחול) וצהוב. ביחד הם נותנים את כל קשת הצבעים.</p>
+                    <p>ניתן לרכוש כל צבע בנפרד, אך את הצבעים ורוד-כחול-צהוב ניתן לרכוש במיכל אחד משולב ולחסוך קנייה של 3 מיכלים נפרדים. מצד שני, אם נגמר רק צבע אחד במיכל המשולב, צריך להחליף את כולו.</p>
+
+                    <div class="remember">
+                        <div>
+                            <img src="image/megaphone.png" />
+                            חשוב לזכור
+                        </div>
+                        <p>המדפסת מזהה ומסמנת במידה ומשתמשים בראש דיו תחליפי.</p>
+                        <p>שימוש כזה מסיר את האחריות על המדפסת!</p>
+                    </div>
+                    <br />
+                </div>
+                <button class="accordion accordionOne shadowAll" id="printerTypes">סוגי מדפסות</button>
+                <div class="panel">
+                    <p><strong>מדפסת דיו</strong> - משתמשת בסדרת מזרקים זעירים שמתיזים טיפות דיו קטנות על הנייר. מדפסת זו משתמשת בראשי דיו.</p>
+                    <p><strong>מדפסת לייזר</strong> - משתמשת בקרן לייזר. בעלת מהירות הדפסה גבוהה יחסית ורזולוציית הדפסה גבוהה, המתבטאת באיכות הדפסה גבוהה. מדפסת מסוג זה משתמשת במילוי מסוג טונר. אחד היתרונות של מדפסת לייזר הוא עלות תחזוקה זולה: עלות טונר למספר דפים זול.</p>
+                    <p><strong>מדפסת LED</strong> - משתמשת בטכנולוגית הדפסה שמזכירה בפעולתה את מדפסת הלייזר, רק שזמן ההמתנה לתחילת ההדפסה מהיר וההדפסה מדויקת יותר בזכות נורות ה-LED. מדפסת מסוג זה משתמשת בטונר.</p>
+
+                    <div class="smallTip">
+                        <div>
+                            <img src="image/smallTipIcon.png" />
+                            טיפ קטן
+                        </div>
+                        <p style="text-align:center;">
+                            אז מה יותר טוב?
+                            <br /><br />
+                            <strong>הכול תלוי בצרכי הלקוח!</strong>
+                        </p>
+
+                    </div>
+                    <br />
+                </div>
+                <button class="accordion accordionOne shadowAll" id="importants">תכונות חשובות במפרט</button>
+                <div class="panel">
+                    <ul>
+                        <li>מהירות הדפסה: כמות הדפים שניתן להדפיס בדקה. רלוונטי בעיקר אם יש צורך בהדפסות מרובות ותכופות, כמו במשרדים</li>
+                        <li>כמות הדפסת עמודים חודשית מומלצת לדגם: כמה דפים הלקוח מדפיס בחודש</li>
+                        <li>מגש הזנה: האם קיים מגש טעינת הדפים ומהי כמות הדפים שניתן לטעון בו</li>
+                        <li>צבע ההדפסה: שחור-לבן/צבעוני</li>
+                        <li>מסך תצוגה: האם קיים מסך תפעול המדפסת והאם הוא מסך LED או מגע</li>
+                        <li>
+                            יכולות שונות:
+                            <ul>
+                                <li>הדפסה דו צדדית: הדפסה משני צידי הדף</li>
+                                <li>העתקה: צילום מסמכים</li>
+                                <li>סריקה וצילום: סריקת המסמך עבור המחשב/הדפסה כמכונת צילום</li>
+                                <li>פקס: חיבור המדפסת לקו טלפון ושליחת פקס</li>
+                            </ul>
+                        </li> <!--סוף יכולות שונות-->
+                        <li>
+                            תקשורת:
+                            <ul>
+                                <li>חיבור קווי: חיבור קווי לרשת או ישירות למחשב</li>
+                                <li>חיבור אלחוטי (WIFI): חיבור לרשת ללא צורך בחיבור קווי</li>
+                                <li>סמארטפון: הדפסה ישירות ממכשיר הסמארטפון (דרך אפליקציה או ישירות)</li>
+                                <li>חיבור USB: אפשרות לחבר ישירות למדפסת דיסק און קי ולהדפיס את הקבצים ישירות ממנו</li>
+                            </ul>
+                        </li> <!--סוף תקשורת-->
+                    </ul>
+
+                    <br />
+                </div>
+                <button class="accordion accordionOne shadowAll" id="knowTheNeed">זיהוי הצורך</button>
+                <div class="panel">
+                    <p>כאשר לקוח מבקש לקנות מדפסת <strong>יש לברר קודם את צרכיו</strong>:</p>
+                    <ul>
+                        <li>כמות ההדפסות החודשית – האם הצורך הוא להדפסות מעטות בחודש, עבור ילדים והדפסה ביתית רגילה? צבעוני? אולי לסטודנט שידפיס הרבה סיכומים ועבודות אך בעיקר בשחור לבן? ואולי בכלל למשרד ביתי קטן?</li>
+                        <li>גודל המדפסת – היכן הלקוח מתכוון למקם את המדפסת? גודל המדפסת משפיע על הקנייה.</li>
+                        <li>פונקציות נוספות – מהן הפונקציות שהלקוח צריך שהמדפסת תבצע? האם הדפסה בלבד, או שיש לו צורך בסורק/מכונת צילום, אולי בפקס? אולי מעוניין בחיבוריות WIFI או Bluetooth?</li>
+                    </ul>
+
+                    <div class="smallTip">
+                        <div>
+                            <img src="image/smallTipIcon.png" />
+                            טיפ קטן
+                        </div>
+                        <p>
+                            לרוב, עבור כמות קטנה עד רגילה של הדפסות נמליץ על מדפסת דיו,
+                            <br />
+                            ועבור כמות גדולה נמליץ על מדפסת לייזר.
+                        </p>
+                    </div>
+                    <br />
+                </div>
+
+                <button class="accordion accordionOne shadowAll" id="completersPrinters">מוצרים משלימים</button>
+                <div class="panel">
+                    <ul>
+                        <li>דפים להדפסה</li>
+                        <li>ראשי דיו</li>
+                        <li>טונר</li>
+                    </ul>
+                </div>
+
+
+                <button class="accordion accordionOne" id="meetCustomerIcon">
+                    <img src="image/meetCustomerIcon.png" />
+                    רוצה לפגוש לקוח?
+                </button>
+                <div class="panel" id="meetCustomerQuestion">
+                    <div>
+                        <div>
+                            <img src="image/meetCustomer/meetCustomer_2.png" />
+                            <div class="speech_bubble">
+                                שלום, בחברה שלי מדפיסים המון תיקי לקוח וסיכומים כל יום. אנחנו צריכים מדפסת מהירה שאפשר להדפיס בה באיכות גבוהה. מה כדאי לנו לרכוש?
+                            </div>
+                        </div>
+                        <div style="text-align: -webkit-center;">
+                            <table cellspacing="10" style="width:100%">
+                                <tr>
+                                    <th style="width:10%;">
+                                        <div class="tIcon">&nbsp</div>
+                                    </th>
+                                    <th id="t" class="ansShape ansBGcolor shadowAll" style="width:90%">מדפסת לייזר</th>
+                                </tr>
+                                <tr>
+                                    <th style="width:10%;">
+                                        <div class="fIcon1">&nbsp</div>
+                                    </th>
+                                    <th style="width:90%" id="f1" class="ansShape ansBGcolor shadowAll">מדפסת דיו</th>
+                                </tr>
+                                <tr>
+                                    <th style="width:10%;">
+                                        <div class="fIcon2">&nbsp</div>
+                                    </th>
+                                    <th style="width:90%" id="f2" class="ansShape ansBGcolor shadowAll">מדפסת LED</th>
+                                </tr>
+                            </table>
+                        </div>
+                        <div id="q22">
+                            <div>
+                                <img src="image/meetCustomer/meetCustomer_2.png" />
+                                <div class="speech_bubble">
+                                    יופי, תודה. אנחנו צריכים לקנות לזה דיו? טונר? איזה סוג לקנות?
+                                </div>
+                            </div>
+                            <div style="text-align: -webkit-center;">
+                                <table cellspacing="10" style="width:100%">
+                                    <tr>
+                                        <th style="width:10%;">
+                                            <div class="tIcon2">&nbsp</div>
+                                        </th>
+                                        <th id="t2" class="ansShape ansBGcolor shadowAll" style="width:90%">טונר אחד לשחור ועוד 3 טונרים לצבעוני</th>
+                                    </tr>
+                                    <tr>
+                                        <th style="width:10%;">
+                                            <div class="fIcon12">&nbsp</div>
+                                        </th>
+                                        <th style="width:90%" id="f12" class="ansShape ansBGcolor shadowAll">דיו, יש ראש משולב שחור וצבעים</th>
+                                    </tr>
+                                    <tr>
+                                        <th style="width:10%;">
+                                            <div class="fIcon22">&nbsp</div>
+                                        </th>
+                                        <th style="width:90%" id="f22" class="ansShape ansBGcolor shadowAll">דיו וטונר זה אותו דבר</th>
+                                    </tr>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br />
+    <nav class="mobile-bottom-nav">
+        <div class="mobile-bottom-nav__item"style="max-width: 25%;">
+            <a href="p1_laptops.html">
+                <div class="mobile-bottom-nav__item-content">
+                    <i class="material-icons">
+                        <img src="image/navIcon/nav1_icon1.png" />
+                    </i>
+                    ניידים
+                </div>
+            </a>
+        </div>
+        <div class="mobile-bottom-nav__item mobile-bottom-nav__item--activeRight"style="max-width: 25%;">
+            <a href="p1_printers.html">
+                <div class="mobile-bottom-nav__item-content">
+                    <i class="material-icons">
+                        <img src="image/navIcon/nav1_icon2.png" />
+                    </i>
+                    מדפסות
+                </div>
+            </a>
+        </div>
+        <div class="mobile-bottom-nav__item"style="max-width: 25%;">
+            <a href="p1_gaming.html">
+                <div class="mobile-bottom-nav__item-content">
+                    <i class="material-icons">
+                        <img src="image/navIcon/nav1_icon3.png" />
+                    </i>
+                    גיימינג
+                </div>
+            </a>
+        </div>
+
+        <div class="mobile-bottom-nav__item" style="max-width: 25%;">
+            <a href="p1_memories.html">
+                <div class="mobile-bottom-nav__item-content">
+                    <i class="material-icons">
+                        <img src="image/navIcon/nav1_icon4.png" />
+                    </i>
+                    זיכרונות
+                </div>
+            </a>
+        </div>
+    </nav>
+
+    <script>
+        /*אקורדיון*/
+        initAccordion();
+        /*סוף- אקורדיון*/
+    </script>
+</body>
+</html>

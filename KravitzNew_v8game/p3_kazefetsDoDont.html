@@ -1,0 +1,102 @@
+﻿
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>קצפת's במכירה</title>
+
+    <!--CSS-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="myStyle/StyleSheet.css" rel="stylesheet" />
+
+    <!--- Scripts -->
+    <script src="js/jquery-1.12.0.min.js"></script>
+    <script src="bootstrap/js/bootstrap.js"></script>
+    <script src="js/JavaScriptAccordion.js"></script>
+
+</head>
+<body>
+    <div id="myContainer">
+        <div id="myNav" class="overlay">
+            <div class="overlay-content">
+                <a href="index.html">בית</a>
+                <a href="p1_laptops.html">אלקטרוניקה בקצרה</a>
+                <a href="p2_hetzimModel.html">חצי"ם בלמידה</a>
+                <a class="activePage" href="p3_kazefets.html">קצפת's במכירה</a>
+                <a href="p4_About.html">אודות</a>
+            </div>
+            <div class="closebtn" onclick="closeNav()">&times;</div>
+        </div>
+        <div id="topNavSticky">
+            <div id="hamburgerNav1">
+                <div id="hamburgerNav2" class="shadowAll" onclick="openNav()">&#9776;</div>
+            </div>
+            <div id="topNavImage"></div>
+        </div>
+        <div class="animate-bottom">
+            <h1 id="topNavH1">עשה ואל תעשה</h1>
+            <div id="accordionPanel">
+                <button class="accordion accordionOne shadowAll" id="closeness">קרבה</button>
+                <div class="panel" video-id="Zzyfcys1aLM">
+                </div>
+
+                <button class="accordion accordionOne shadowAll" id="need">צורך</button>
+                <div class="panel" video-id="7Xf-Lesrkuc">
+                </div>
+
+                <button class="accordion accordionOne shadowAll" id="solution">פתרון</button>
+                <div class="panel" video-id="RFzZ-xpyfoo">
+                </div>
+
+                <button class="accordion accordionOne shadowAll" id="value">תועלות</button>
+                <div class="panel" video-id="DL7-CKirWZE">
+                </div>
+
+                <button class="accordion accordionOne shadowAll" id="closing">סגירה</button>
+                <div class="panel" video-id="VV1XWJN3nJo">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <br />
+
+    <nav class="mobile-bottom-nav">
+        <div class="mobile-bottom-nav__item " style="max-width: 33.3%;">
+            <a href="p3_kazefets.html">
+                <div class="mobile-bottom-nav__item-content">
+                    <i class="material-icons">
+                        <img src="image/navIcon/nav3_icon1.png" />
+                    </i>
+                    מודל קצפת's
+                </div>
+            </a>
+        </div>
+        <div class="mobile-bottom-nav__item mobile-bottom-nav__item--activeRight" style="max-width: 33.3%;">
+            <a href="p3_kazefetsDoDont.html">
+                <div class="mobile-bottom-nav__item-content">
+                    <i class="material-icons">
+                        <img src="image/navIcon/nav3_icon2.png" />
+                    </i>
+                    עשה ואל תעשה
+                </div>
+            </a>
+        </div>
+        <div class="mobile-bottom-nav__item" style="max-width: 33.3%;">
+            <a href="p3_kazefetsPractice.html">
+                <div class="mobile-bottom-nav__item-content">
+                    <i class="material-icons">
+                        <img src="image/practice.png" />
+                    </i>
+                    תרגול
+                </div>
+            </a>
+        </div>
+    </nav>
+    <script>
+        /*אקורדיון*/
+        initAccordion();
+        /*סוף- אקורדיון*/
+    </script>
+</body>
+</html>
