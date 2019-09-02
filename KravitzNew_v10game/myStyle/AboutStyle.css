@@ -1,0 +1,105 @@
+﻿
+
+#table1_odot {
+    width: 100%;
+    background-image: url(../image/odot.png);
+    background-repeat: no-repeat;
+    background-size: 94%;
+    background-position: center;
+    height: 100vw;
+    margin-top: 5vw;
+}
+
+#lomdim_logo{
+        width: 30%;
+            margin-top: 90px;
+}
+
+#logoExp{
+        padding: 0 61px;
+    margin-top: 15px;
+        padding: 0px 48px !important;
+}
+
+#infoTable{
+    width:100%;
+    margin-top: -50px;
+    vertical-align:top;
+}
+
+#infoTable td{
+ vertical-align:top !important;
+}
+#aboutPic h3 {
+    text-align: center;
+    position: absolute;
+    top: 65%;
+    left: 29%;
+    width: 42%;
+    font-size: 3.5vw;
+}
+
+
+
+.aboutTH {
+    width: 40%;
+    font-size: 4vw;
+    font-weight: 500;
+    text-align: center;
+}
+
+
+/* when phone orientation is portrait */
+@media screen and (orientation: portrait) {
+    #aboutPage #aboutPic {
+        min-height: 350px;
+    }
+
+    #lomdim {
+    }
+
+    #baktana {
+    }
+
+    #aboutPage h3 {
+    }
+}
+
+/* when phone orientation is landscape*/
+@media screen and (orientation: landscape) {
+    #aboutPage #aboutPic {
+        min-height: 330px;
+        background-position: center 0px;
+    }
+
+    #lomdim {
+        /*change top to fit landscape orientation*/
+        top: 35%;
+        left: 43%;
+        font-size: 5vw !important;
+    }
+
+    #baktana {
+        top: 50%;
+        left: 44%;
+        font-size: 3.2vw !important;
+    }
+
+    #aboutPage h3 {
+        top: 70%;
+        left: 37%;
+        width: 25%;
+        font-size: 2.2vw;
+    }
+
+    .aboutTH {
+        width: 40%;
+        font-size: 2vw;
+        font-weight: 500;
+        text-align: center;
+    }
+
+    img {
+        width: 50%;
+    }
+}
