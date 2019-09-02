@@ -18,7 +18,7 @@ function sumFunc() {
 
     $.ajax({
         dataType: 'json',
-        url: '/json/myJson.json',
+        url: 'json/myJson.json',
         async: false,
         success: function (data) {
  
