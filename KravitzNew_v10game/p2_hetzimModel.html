@@ -1,0 +1,213 @@
+﻿
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>חצי"ם בלמידה</title>
+
+    <!--CSS-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="myStyle/StyleSheet.css" rel="stylesheet" />
+
+    <!--- Scripts -->
+    <script src="js/jquery-1.12.0.min.js"></script>
+    <script src="bootstrap/js/bootstrap.js"></script>
+    <script src="js/JavaScriptAccordion.js"></script>
+
+</head>
+<body>
+    <div id="myContainer">
+        <div id="myNav" class="overlay">
+            <div class="overlay-content">
+                <a href="index.html">בית</a>
+                <a href="p1_laptops.html">אלקטרוניקה בקצרה</a>
+                <a class="activePage" href="p2_hetzimModel.html">חצי"ם בלמידה</a>
+                <a href="p3_kazefets.html">קצפת's במכירה</a>
+                <a href="p4_About.html">אודות</a>
+            </div>
+            <div class="closebtn" onclick="closeNav()">
+                <img style="width:25px;" src="image/closeNav.png" />
+            </div>
+        </div>
+        <div id="topNavSticky">
+            <div id="hamburgerNav1">
+                <div id="hamburgerNav2" class="shadowAll" onclick="openNav()">
+                    <img style="width:30px;" src="image/hamborgerNav.png" />
+                </div>
+            </div>
+            <div id="topNavImage"></div>
+        </div>
+        <div class="animate-bottom">
+            <h1 id="topNavH1">חושבים חצי"ם</h1>
+
+            <img src="image/firingArrow.png" style="width:75%; padding:10px; padding-right: 40px; margin-bottom: -0.9em;" />
+
+            <div id="accordionPanel">
+                <button class="accordion accordionOne shadowAll" id="families">חלוקה למשפחות</button>
+                <div class="panel">
+                    <p>ניתן לחלק את כלל המוצרים הנמכרים ברשת לכמה משפחות ראשיות, ובתוך כל משפחה ראשית לעוד מספר משפחות משניות.</p>
+                    <p>כל משפחה משנית מכילה בתוכה את המוצרים השונים ברשת, כמו למשל עט Pilot או קלמר מעוצב.</p>
+                    <div class="forExample_marginRight">
+                        <div class="forExampleTxt_long">להלן כמה דוגמאות:</div>
+                        <br />
+                        <table style="border-collapse:collapse; width:100%; text-align:right;">
+                            <tr>
+                                <th class="familiesTable">משפחה ראשית</th>
+                                <th class="familiesTable">משפחה משנית</th>
+                            </tr>
+                            <tr>
+                                <td class="familiesTable">מוצרי אלקטרוניקה</td>
+                                <td class="familiesTable">מחשבים ניידים, מדפסות, גיימינג, זיכרונות, ציוד הקיפי וכד'</td>
+                            </tr>
+                            <tr>
+                                <td class="familiesTable">ציוד משרדי</td>
+                                <td class="familiesTable">נייר ומצריו, כלי כתיבה, אומנות ויצירה, תיוק ואחסון</td>
+                            </tr>
+                            <tr>
+                                <td class="familiesTable">תיקים ומזוודות</td>
+                                <td class="familiesTable">תיקי גב, תיקים אורטופדים ותיקי גן, קלמרים, בקבוקים וקופסאות אוכל, תיקי מחשב ומזוודות</td>
+                            </tr>
+                        </table>
+                        </div>
+                        <p>חלוקה זו אינה חקוקה בסלע אך מומלץ לעבוד עם שיטה כלשהי כדי להבדיל בין ולסווג את המוצרים השונים.</p>
+                        <div class="bottomLine">
+                            <div>
+                                <img src="image/punchLineIcon.png" />
+                                שורה תחתונה
+                            </div>
+                            חלוקה למשפחות עושה סדר במוצרים ותעזור לך להתאים את המוצר הכי נכון ללקוח בזמן המכירה
+                        </div>
+                        <br />
+                    </div>
+                <button class="accordion accordionOne shadowAll" id="need">צורך שעליו עונה המוצר</button>
+                <div class="panel">
+                    <p>חשוב להתמקד בשאלה <strong>מהו הצורך שעליו עונה המוצר?</strong></p>
+                    <p>
+                        <div><strong>האם מדובר בצרכי הנאה?</strong></div>
+                        <div class="forExample_marginRight">
+                            <div class="forExampleTxt_short">לדוגמה:</div>
+                            <div>המחשב ישמש למשחקים, צפייה בסרטים וגלישה באינטרנט.</div>
+                        </div>
+                    </p>
+                    <p>
+                        <div><strong>האם זהו צורך מקצועי?</strong></div>
+                        <div class="forExample_marginRight">
+                            <div class="forExampleTxt_short">לדוגמה:</div>
+                            <div>המחשב ישמש למשחקים, צפייה בסרטים וגלישה באינטרנט.</div>
+                        </div>
+                    </p>
+                    <p>
+                        <div><strong>האם אלה צרכים של קהל יעד ספציפי?</strong></div>
+                        <div class="forExample_marginRight">
+                            <div class="forExampleTxt_short">לדוגמה:</div>
+                            <div> המדפסת תשמש עובדי משרד להדפסה יום יומית בכמויות גדולות.</div>
+                        </div>
+                    </p>
+                    <div class="bottomLine">
+                        <div>
+                            <img src="image/punchLineIcon.png" />
+                            שורה תחתונה
+                        </div>
+                        ברגע שיודעים מהו הצורך שעליו עונה מוצר מסוים – יהיה קל לשלוף את המוצר המתאים ביותר ללקוח שעומד מולנו בזמן מכירה.
+                    </div>
+                    <br />
+                </div>
+                <button class="accordion accordionOne shadowAll" id="specialValue">ייחודיות ותועלות</button>
+                <div class="panel">
+                    <p>מה מייחד את המוצר על פני מוצרים מאותה משפחה? איזו תועלת יש לו לעומת שאר המוצרים?</p>
+                    <p>האם יש פונקציות מיוחדת שהוא מספק, אולי העובדה שהוא מתממשק עם פריט/מוצר אחר שכבר יש ללקוח בבית?</p>
+                    <div class="forExample_marginRight">
+                        <div class="forExampleTxt_long">להלן כמה דוגמאות:</div>
+                        <ul class="forExample_list">
+                            <li>עמידות בזכות קייס חיצוני קשיח – המוצר לא יישבר בקלות</li>
+                            <li>למוצר יש נפח זיכרון גדול שיאפשר לך שמירה של תמונות/קבצים מרובים</li>
+                            <li>משך סוללה ארוך כך שלא צריך לדאוג להטענה אחרי שימוש קצר</li>
+                            <li>המוצר משלב מספר טכנולוגיות כך שלא צריך להתחבר אליו עם כבל</li>
+                            <li>מחיר אטרקטיבי, המוצר כרגע במבצע</li>
+                        </ul>
+                    </div>
+                        <div class="bottomLine">
+                            <div>
+                                <img src="image/punchLineIcon.png" />
+                                שורה תחתונה
+                            </div>
+                            שימוש בתועלות המוצר בהתאם לצרכי הלקוח יסייעו במכירת המוצר והתאמתו ללקוח.
+                        </div>
+                        <br />
+                    </div>
+                <button class="accordion accordionOne shadowAll" id="Completers">מוצרים משלימים</button>
+                <div class="panel">
+                    <p>חשוב לשייך מוצרים שיכולים או שצריכים להימכר ביחד, הן מבחינת השלמת הפונקציונאליות של המוצר והן מבחינת מוצרים שהם עזרים ומוצרי נוחות.</p>
+                    <p>
+                        <div><strong>האם יש מוצר שבלעדיו המוצר לא יכול להתפקד?</strong></div>
+                        <div class="forExample_marginRight">
+                            <div class="forExampleTxt_long">לדוגמה:</div>
+                            <ul class="forExample_list">
+                                <li>מדפסת לא יכולה לעבוד בלי דיו</li>
+                                <li>עכבר לא יכול לעבוד ללא סוללות</li>
+                            </ul>
+                        </div>
+                    </p>
+                    <p>
+                        <div><strong> האם יש מוצר שיכול לשדרג את חווית השימוש?</strong></div>
+                        <div class="forExample_marginRight">
+                            <div class="forExampleTxt_long">לדוגמה:</div>
+                            <ul class="forExample_list">
+                                <li>לאוזניות – קייס מגן</li>
+                                <li>למחשב נייד – תיק לפטופ</li>
+                                <li>עכבר – משטח ג'ל מרופד</li>
+                            </ul>
+                        </div>
+                    </p>
+                    <div class="bottomLine">
+                        <div>
+                            <img src="image/punchLineIcon.png" />
+                            שורה תחתונה
+                        </div>
+                        התאמת מוצר משלים תחסוך ללקוח חזרה לחנות לרכישת מוצר משלים, וגם תגדיל את סל המכירה.
+                    </div>
+                    <br />
+                 </div>
+            </div>
+        </div>
+    </div>
+    <br />
+    <nav class="mobile-bottom-nav">
+        <div class="mobile-bottom-nav__item  mobile-bottom-nav__item--activeRight" style="max-width: 33.3%;">
+            <a href="p2_hetzimModel.html">
+                <div class="mobile-bottom-nav__item-content">
+                    <i class="material-icons">
+                        <img src="image/navIcon/nav2_icon1.png" />
+                    </i>
+                    חושבים חצי"ם
+                </div>
+            </a>
+        </div>
+        <div class="mobile-bottom-nav__item" style="max-width: 33.3%;">
+            <a href="p2_hetzimModelMeetProduct.html">
+                <div class="mobile-bottom-nav__item-content">
+                    <i class="material-icons">
+                        <img src="image/navIcon/nav2_icon2.png" />
+                    </i>
+                    מתרגלים ביחד
+                </div>
+            </a>
+        </div>
+        <div class="mobile-bottom-nav__item" style="max-width: 33.3%;">
+            <a href="p2_hetzimPractice_alone1.html">
+                <div class="mobile-bottom-nav__item-content">
+                    <i class="material-icons">
+                        <img src="image/navIcon/nav2_icon3.png" />
+                    </i>
+                    מתרגלים לבד
+                </div>
+            </a>
+        </div>
+    </nav>
+    <script>
+        /*אקורדיון*/
+        initAccordion();
+        /*סוף- אקורדיון*/
+    </script>
+</body>
+</html>

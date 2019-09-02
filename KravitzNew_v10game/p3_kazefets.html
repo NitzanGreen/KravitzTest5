@@ -1,0 +1,283 @@
+﻿
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>מודל קצפת's</title>
+
+
+    <!--CSS-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="myStyle/StyleSheet.css" rel="stylesheet" />
+
+    <!--- Scripts -->
+    <script src="js/jquery-1.12.0.min.js"></script>
+    <script src="bootstrap/js/bootstrap.js"></script>
+    <script src="js/JavaScriptAccordion.js"></script>
+
+</head>
+<body>
+    <div id="myContainer">
+        <div id="myNav" class="overlay">
+            <div class="overlay-content">
+                <a href="index.html">בית</a>
+                <a href="p1_laptops.html">אלקטרוניקה בקצרה</a>
+                <a href="p2_hetzimModel.html">חצי"ם בלמידה</a>
+                <a class="activePage" href="p3_kazefets.html">קצפת's במכירה</a>
+                <a href="p4_About.html">אודות</a>
+            </div>
+            <div class="closebtn" onclick="closeNav()">
+                <img style="width:25px;" src="image/closeNav.png" />
+            </div>
+        </div>
+        <div id="topNavSticky">
+            <div id="hamburgerNav1">
+                <div id="hamburgerNav2" class="shadowAll" onclick="openNav()">
+                    <img style="width:30px;" src="image/hamborgerNav.png" />
+                </div>
+            </div>
+            <div id="topNavImage"></div>
+        </div>
+        <div class="animate-bottom">
+            <h1 id="topNavH1">מודל קצפת's</h1>
+            <img src="image/accordion_pic2-01.png" style="width: 8em; margin-bottom: -0.2em; margin-right: 10em; margin-top: -2em;" />
+            <div id="accordionPanel">
+                <button class="accordion accordionOne shadowAll" id="closeness">קרבה</button>
+                <div class="panel">
+                    <p><strong>קרבה חשובה כי היא...</strong></p>
+                    <ol class="ol_margin" style="margin-bottom: 28px !important;">
+                        <li>שוברת את הקרח ויוצרת כימיה ראשונית </li>
+                        <li>בונה אמון בינך לבין הלקוח</li>
+                        <li>מעודדת פתיחות ונינוחות מצד הלקוח</li>
+                        <li>מאפשרת לשאול שאלות</li>
+                        <li>מהווה בסיס להגדלת קנייה</li>
+                    </ol>
+                    <p><strong>איך ניצור קרבה ראשונית עם הלקוח?</strong></p>
+                    <ol class="ol_margin">
+                        <li>ברכת שלום והצגה עצמית</li>
+                        <li>חיוך</li>
+                        <li>פנייה ללקוח בשאלה פתוחה</li>
+                    </ol>
+                    <p>
+                        <div class="forExample_marginRight" style="margin-bottom: 28px !important;">
+                            <div class="forExampleTxt_long">לדוגמה:</div>
+                            <ul class="forExample_list">
+                                <li>להוסיף שימוש בשאלה פתוחה</li>
+                                <li>להוסיף שימוש בשאלה פתוחה</li>
+                            </ul>
+                        </div>
+                    </p>
+                    <p><strong>איך ניצור קרבה תומכת מכירה</strong> – לאורך כל התהליך: </p>
+                    <ol class="ol_margin">
+                        <li>שימוש בשם הלקוח</li>
+                        <li>חיוך</li>
+                        <li>
+                            חשיפת מידע אישי רלוונטי
+                        </li>
+                    </ol>
+                    <p>
+                        <div class="forExample_marginRight">
+                            <div class="forExampleTxt_long">לדוגמה:</div>
+                            <ul class="forExample_list">
+                                <li>להוסיף שימוש בשם לקוח</li>
+                                <li>"השתמשתי בעט הזה כשהייתי בתיכון"</li>
+                                <li>"אני אוהב את חברת התיקים הזאת"</li>
+                                <li>"לאחי יש מכשיר סמארטפון כזה והוא מרוצה"</li>
+                                <li>"השתמשתי בעיפרון הזה והחוד לא נשבר לי"</li>
+                            </ul>
+                        </div>
+                    </p>
+                </div>
+                <button class="accordion accordionOne" id="need">צורך</button>
+                <div class="panel">
+                    <p>נשאל את הלקוח מספר שאלות לאיתור צרכים. שאלות אלה יעזרו גם לנו וגם ללקוח להבין מה הוא באמת צריך.</p>
+                    <p>
+                        <div><strong>האם מי שעומד מולי הוא הלקוח?</strong></div>
+                        <div>לא בהכרח. אולי זו אמא שקונה לילד שלה, או שהמוצר מיועד למקום עבודה.</div>
+                        <div class="forExample_marginRight">
+                            <div class="forExampleTxt_long">לדוגמה:</div>
+                            <ul class="forExample_list">
+                                <li>"עבור מי המוצר?"</li>
+                                <li>"המוצר עבורך?"</li>
+                                <li>"זה בשביל הילד?"</li>
+                            </ul>
+                        </div>
+                    </p>
+                    <p>
+                        <div><strong>מהו סוג השימוש במוצר?</strong></div>
+                        <div class="forExample_marginRight">
+                            <div class="forExampleTxt_long">לדוגמה:</div>
+                            <ul class="forExample_list">
+                                <li>"למה ישמש המחשב? למשחקים, עבודה, לימודים?"</li>
+                                <li>"המדפסת היא לשימוש ביתי, או למשרד גדול?"</li>
+                            </ul>
+                        </div>
+                    </p>
+                    <p>
+                        <div><strong>מה חשוב לך שיהיה במוצר?</strong></div>
+                        <div class="forExample_marginRight">
+                            <div class="forExampleTxt_long">לדוגמה:</div>
+                            <ul class="forExample_list">
+                                <li>"חשוב לך שהמחשב יהיה קל?"</li>
+                                <li>"חשוב לך שהמדפסת תאפשר חיבור Bluetooth?"</li>
+                                <li>"חשוב לך שהתיק יהיה אורתופדי?"</li>
+                            </ul>
+                        </div>
+                    </p>
+                </div>
+                <button class="accordion accordionOne shadowAll" id="solution">פתרון</button>
+                <div class="panel">
+                    <ol class="ol_margin" style="margin-top:10px !important;">
+                        <li>נבחר לפחות <strong>שני מוצרים שעונים על צרכי הלקוח</strong>, כדי שיהיו ללקוח אפשרויות.</li>
+                        <li>נראה ללקוח <strong>פיזית את המוצרים</strong>. במידה ולא ניתן, נציג מפרט.</li>
+                        <li>
+                            כשנציג את המוצר, <strong>נסביר איך הוא עונה על הצרכים</strong> שהלקוח הציג בשלב הקודם.
+                        </li>
+                    </ol>
+                    <p>
+                        <div class="forExample_marginRight">
+                            <div class="forExampleTxt_long">לדוגמה:</div>
+                            <ul class="forExample_list">
+                                <li>"אמרת שחשוב לך מחשב קל, הדגם הזה שוקל פחות מקילו וחצי"</li>
+                                <li>"אמרת שזאת מדפסת לבית, תראי, הדם הזה לא תופס הרבה מקום"</li>
+                                <li>"אמרת שהילד הולך לבי"ס ברגל – לתיק הזה יש עגלה"</li>
+                            </ul>
+                        </div>
+                    </p>
+                </div>
+                <button class="accordion accordionOne shadowAll" id="value">תועלות</button>
+                <div class="panel">
+                    <p>נציג ללקוח את התועלות של המוצר.</p>
+                    <div class="smallTip" style="height:30px;text-align:center !important; padding-bottom:16px;">
+                        <div>
+                            <img src="image/smallTipIcon.png" />
+                            שים לב
+                        </div>
+                        תכונה אינה תועלת!
+                    </div>
+                    <p>
+                        <div><strong>תכונה</strong> = נתון ממפרט / מאפיין טכני של המוצר.</div>
+                        <div class="forExample_marginRight">
+                            <div class="forExampleTxt_long">לדוגמה:</div>
+                            <ul class="forExample_list">
+                                <li>"לעט הזה יש גריפ (כרית אחיזה)."</li>
+                                <li>"הכונן הקשיח הזה בגודל  1 Terabyte."</li>
+                                <li>"במחשב הזה יש מעבד i7."</li>
+                            </ul>
+                        </div>
+                    </p>
+                    <p>
+                        <div><strong>תועלת</strong> = כיצד התכונה יכולה לעזור ללקוח, ולמה כדאי לו לקנות את המוצר.</div>
+                        <div class="forExample_marginRight">
+                            <div class="forExampleTxt_long">לדוגמה:</div>
+                            <ul class="forExample_list">
+                                <li>"לעט הזה יש גריפ לאחיזה נוחה, והוא לא יחליק מהיד."</li>
+                                <li>"הכונן הקשיח הזה בגודל 1 Terabyte, תוכל לגבות בו את כל החומרים מהתואר שלך, המון קבצים, בלי שיחסר לך אי פעם מקום אחסון"</li>
+                                <li>"במחשב הזה יש מעבד i7 , תוכל לעבוד בו בתוכנות חזקות במהירות ובלי שהמחשב ייתקע."</li>
+                            </ul>
+                        </div>
+                    </p>
+                </div>
+                <button class="accordion accordionOne shadowAll" id="closing">סגירה</button>
+                <div class="panel">
+                    <p>
+                        <div><strong>נעזור ללקוח לבחור בין האופציות שהצענו</strong></div>
+                        <div class="forExample_marginRight">
+                            <div class="forExampleTxt_short">לדוגמה:</div>
+                            <div style="display: inline-block;">"את זה או את זה?"</div>
+                        </div>
+                    </p>
+                    <p>
+                        <div><strong>נסביר ללקוח על האחריות של המוצר</strong></div>
+                        <div class="forExample_marginRight">
+                            <div class="forExampleTxt_short">לדוגמה:</div>
+                            <div style="display: inline-block;">"יש לך X שנים אחריות על המחשב."</div>
+                        </div>
+                    </p>
+                    <p>
+                        <div><strong>נציע ללקוח מוצר משלים</strong></div>
+                        <div class="forExample_marginRight">
+                            <div class="forExampleTxt_long">לדוגמה:</div>
+                            <ul class="forExample_list">
+                                <li>"אם קנית מחשב נייד אז את בטח צריכה גם עכבר."</li>
+                                <li>"את כבר כאן אז תקני עכשיו..."</li>
+                            </ul>
+                        </div>
+                    </p>
+                    <p>
+                        <div><strong>נתמודד עם התנגדויות למחיר</strong></div>
+                        <div class="forExample_marginRight">
+                            <div class="forExampleTxt_long">לדוגמה:</div>
+                            <ul class="forExample_list">
+                                <li>נציג מבצעים</li>
+                                <li>נציג חלופות זולות יותר</li>
+                                <li>נפרט את תנאי האחריות כחברה בעלת שם</li>
+                                <li>נציע פריסה לתשלומים</li>
+                            </ul>
+                        </div>
+                    </p>
+                    <p>
+                        <div><strong>נתמודד עם התנגדות מקצועית</strong></div>
+                        <div class="forExample_marginRight">
+                            <div class="forExampleTxt_long">לדוגמה:</div>
+                            <ul class="forExample_list">
+                                <li>נסביר מדוע המכשיר מתאים לצרכי הלקוח (כפי שהציג אותם בשלב איתור הצרכים)</li>
+                                <li>נציג מוצר נוסף אשר יתאים יותר לצרכי הלקוח</li>
+                                <li>נחזור לשלב איתור הצרכים ונצמצם פערים</li>
+                            </ul>
+                        </div>
+                    </p>
+                    <div class="smallTip smallTipTxtDiv">
+                        <div>
+                            <img src="image/smallTipIcon.png" />
+                            טיפ קטן
+                        </div>
+                        ניתן להיעזר בניסוח "בוא תשתף אותי בהתלבטות" כדי לזהותת ממה נובעת ההתנגדות.
+                        ברגע שזיהינו, עשינו 80% מהעבודה.
+                    </div>
+                    <br />
+                </div>
+                <br />
+            </div>
+        </div>
+    </div>
+    <br />
+    <nav class="mobile-bottom-nav">
+        <div class="mobile-bottom-nav__item mobile-bottom-nav__item--activeRight" style="max-width: 33.3%;">
+            <a href="p3_kazefets.html">
+                <div class="mobile-bottom-nav__item-content">
+                    <i class="material-icons">
+                        <img src="image/navIcon/nav3_icon1.png" />
+                    </i>
+                    מודל קצפת's
+                </div>
+            </a>
+        </div>
+        <div class="mobile-bottom-nav__item" style="max-width: 33.3%;">
+            <a href="p3_kazefetsDoDont.html">
+                <div class="mobile-bottom-nav__item-content">
+                    <i class="material-icons">
+                        <img src="image/navIcon/nav3_icon2.png" />
+                    </i>
+                    עשה ואל תעשה
+                </div>
+            </a>
+        </div>
+        <div class="mobile-bottom-nav__item" style="max-width: 33.3%;">
+            <a href="p3_kazefetsPractice.html">
+                <div class="mobile-bottom-nav__item-content">
+                    <i class="material-icons">
+                        <img src="image/navIcon/nav2_icon3.png" />
+                    </i>
+                    מתרגלים קצפת'S
+                </div>
+            </a>
+        </div>
+    </nav>
+    <script>
+        /*אקורדיון*/
+        initAccordion();
+        /*סוף- אקורדיון*/
+    </script>
+</body>
+</html>

@@ -1,0 +1,194 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>קצפת's במכירה</title>
+
+    <!--CSS-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="myStyle/StyleSheet.css" rel="stylesheet" />
+
+    <!--- Scripts -->
+    <script src="js/jquery-1.12.0.min.js"></script>
+    <script src="bootstrap/js/bootstrap.js"></script>
+    <script src="js/JavaScriptAccordion.js"></script>
+    <script src="js/JavaScriptGame2.js"></script>
+
+</head>
+<body onload="Game1Func()">
+    <div id="myContainer">
+        <div id="myNav" class="overlay">
+            <div class="overlay-content">
+                <a href="index.html">בית</a>
+                <a href="p1_laptops.html">אלקטרוניקה בקצרה</a>
+                <a class="activePage" href="p2_hetzimModel.html">חצי"ם בלמידה</a>
+                <a href="p3_kazefets.html">קצפת's במכירה</a>
+                <a href="p4_About.html">אודות</a>
+            </div>
+            <div class="closebtn" onclick="closeNav()">
+                <img style="width:25px;" src="image/closeNav.png" />
+            </div>
+        </div>
+        <div id="topNavSticky">
+            <div id="hamburgerNav1">
+                <div id="hamburgerNav2" class="shadowAll" onclick="openNav()">
+                    <img style="width:30px;" src="image/hamborgerNav.png" />
+                </div>
+            </div>
+            <div id="topNavImage"></div>
+        </div>
+        <div class="animate-bottom">
+            <h1 id="topNavH1">מתרגלים לבד</h1>
+            <h3 class="hetzimPracticeTitle">איזה מוצר בא לך להכיר?</h3>
+            <table cellspacing="10" style="width:100%;">
+                <tbody>
+                    <tr>
+                        <th id="tab1_2" style="width:25%">
+                            <a href="p2_hetzimPractice_alone1.html">
+                                <img id="tab1_Icon2" src="image/meetProduct/meetPro_icon_1.png" style="width:90%" />
+                            </a>
+                        </th>
+                        <th id="tab5_2" style="width:25%">
+
+                            <img id="tab5_Icon2" src="image/meetProduct/meetPro_icon_5_click.png" style="width:90%" />
+
+                        </th>
+                        <th id="tab2_2" style="width:25%">
+                            <a href="p2_hetzimPractice_alone3.html">
+                                <img id="tab5_Icon2" src="image/meetProduct/meetPro_icon_8.png" style="width:90%" />
+                            </a>
+                        </th>
+                        <th id="tab6_2" style="width:25%">
+                            <a href="p2_hetzimPractice_alone4.html">
+                                <img id="tab5_Icon2" src="image/meetProduct/meetPro_icon_6.png" style="width:90%" />
+                            </a>
+                        </th>
+                    </tr>
+                </tbody>
+            </table>
+            <div id="aloneTabPart2n3">
+                <div id="aloneTabPart2">
+                    <h3 class="hetzimPracticeTitle">הכר את המוצר</h3>
+                    <p id="ProductExplanationAlonePart"></p>
+                </div>
+                <div id="aloneTabPart3">
+                    <h3 class="hetzimPracticeTitle">חושבים חצי"ם</h3>
+                    <div id="Game1Div">
+                        <div id="showGame_G1" style="transition:0.5s; height: 450px;">
+                            <div id="gifElement_G1">
+                                <img id="gif_G1" class="myGif" src="gif/regular.gif" />
+                                <img id="man_G1" src="image/manForGame.png" />
+                            </div>
+                            <div id="tryCounterElement_G1">
+                                4 / <div id="counter_G1"></div>
+                            </div>
+                            <div id="QueElement_G1">
+                                <div class="ansBGcolor qShapeGame" style="width:100%; margin-bottom:10px;">
+                                    <div id="G1_Q1" style="padding: 9px;"></div>
+                                </div>
+                                <div id="ansShapeGame">
+                                    <div style="width: 100%;">
+                                        <div id="t_F_icon1" class="pic">&nbsp</div>
+                                        <div class="gameAns">
+                                            <div id="G1_Q1_Ans1" class="gameTXTans ansBGcolor ansShapeGame shadowAll"></div>
+                                        </div>
+                                    </div>
+                                    <div style="width: 100%;">
+                                        <div id="t_F_icon2" class="pic">&nbsp</div>
+                                        <div class="gameAns">
+                                            <div id="G1_Q1_Ans2" class="gameTXTans ansBGcolor ansShapeGame shadowAll"></div>
+                                        </div>
+                                    </div>
+                                    <div style="width: 100%;">
+                                        <div id="t_F_icon3" class="pic">&nbsp</div>
+                                        <div class="gameAns">
+                                            <div id="G1_Q1_Ans3" class="gameTXTans ansBGcolor ansShapeGame shadowAll"></div>
+                                        </div>
+                                    </div>
+                                    <div id="gameNextBtn_G1" class="nextlBtn shadowAll" style="width:120px; height:30px;margin-bottom:10px;">המשך</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="gameAgainBtn_G1" style="margin-top: 16px; height: 322px;">
+                            <table style="border-collapse:collapse; width:100%; text-align:right;">
+                                <tbody>
+                                    <tr>
+                                        <th></th>
+                                        <th class="familiesTable">שאלה</th>
+                                        <th class="familiesTable">תשובה נכונה</th>
+                                    </tr>
+                                    <tr>
+                                        <td id="T_F1" class="redStar" style="width:4%"></td>
+                                        <td id="sum1_Q" class="familiesTable" style="width:48%"></td>
+                                        <td id="sum1_ANS" class="familiesTable" style="width:48%"></td>
+                                    </tr>
+                                    <tr>
+                                        <td id="T_F2" class="redStar" style="width:4%"></td>
+                                        <td id="sum2_Q" class="familiesTable" style="width:48%"></td>
+                                        <td id="sum2_ANS" class="familiesTable" style="width:48%"></td>
+                                    </tr>
+                                    <tr>
+                                        <td id="T_F3" class="redStar" style="width:4%"></td>
+                                        <td id="sum3_Q" class="familiesTable" style="width:48%"></td>
+                                        <td id="sum3_ANS" class="familiesTable" style="width:48%"></td>
+                                    </tr>
+                                    <tr>
+                                        <td id="T_F4" class="redStar" style="width:4%"></td>
+                                        <td id="sum4_Q" class="familiesTable" style="width:48%"></td>
+                                        <td id="sum4_ANS" class="familiesTable" style="width:48%"></td>
+                                    </tr>
+                                    <tr style="height: 30px;">
+                                        <td style="width:4%"></td>
+                                        <td class="redStar" style="width:48%">*שאלות שבהן טעיתי</td>
+                                        <td style="width:48%"></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br />
+    <nav class="mobile-bottom-nav">
+        <div class="mobile-bottom-nav__item " style="max-width: 33.3%;">
+            <a href="p2_hetzimModel.html">
+                <div class="mobile-bottom-nav__item-content">
+                    <i class="material-icons">
+                        <img src="image/navIcon/nav2_icon1.png" />
+                    </i>
+                    חושבים חצי"ם
+                </div>
+            </a>
+        </div>
+        <div class="mobile-bottom-nav__item " style="max-width: 33.3%;">
+            <a href="p2_hetzimModelMeetProduct.html">
+                <div class="mobile-bottom-nav__item-content">
+                    <i class="material-icons">
+                        <img src="image/navIcon/nav2_icon2.png" />
+                    </i>
+                    מתרגלים ביחד
+                </div>
+            </a>
+        </div>
+        <div class="mobile-bottom-nav__item mobile-bottom-nav__item--activeRight" style="max-width: 33.3%;">
+            <a href="p2_hetzimPractice_alone1.html">
+                <div class="mobile-bottom-nav__item-content">
+                    <i class="material-icons">
+                        <img src="image/navIcon/nav2_icon3.png" />
+                    </i>
+                    מתרגלים לבד
+                </div>
+            </a>
+        </div>
+    </nav>
+    <script>
+        /*אקורדיון*/
+        initAccordion();
+        /*סוף- אקורדיון*/
+    </script>
+
+</body>
+</html>
+

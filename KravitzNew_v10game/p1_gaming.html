@@ -1,0 +1,235 @@
+﻿
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>אלקטרוניקה בקצרה</title>
+
+    <!--CSS-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="myStyle/StyleSheet.css" rel="stylesheet" />
+
+    <!--- Scripts -->
+    <script src="js/jquery-1.12.0.min.js"></script>
+    <script src="bootstrap/js/bootstrap.js"></script>
+    <script src="js/JavaScriptAccordion.js"></script>
+
+</head>
+<body>
+    <div id="myContainer">
+        <div id="myNav" class="overlay">
+            <div class="overlay-content">
+                <a href="index.html">בית</a>
+                <a class="activePage" href="p1_laptops.html">אלקטרוניקה בקצרה</a>
+                <a href="p2_hetzimModel.html">חצי"ם בלמידה</a>
+                <a href="p3_kazefets.html">קצפת's במכירה</a>
+                <a href="p4_About.html">אודות</a>
+            </div>
+            <div class="closebtn" onclick="closeNav()">
+                <img style="width:25px;" src="image/closeNav.png" />
+            </div>
+        </div>
+        <div id="topNavSticky">
+            <div id="hamburgerNav1">
+                <div id="hamburgerNav2" class="shadowAll" onclick="openNav()">
+                    <img style="width:30px;" src="image/hamborgerNav.png" />
+                </div>
+            </div>
+            <div id="topNavImage"></div>
+        </div>
+        <div class="animate-bottom">
+            <h1 id="topNavH1">גיימינג</h1>
+
+            <div id="accordionPanel">
+                <button class="accordion accordionOne shadowAll" id="info">הסבר כללי</button>
+                <div class="panel">
+                    <p>קונסולת גיימינג היא מחשב ייעודי המשמש למשחק במשחקי וידאו. קונסולות המשחקים הפכו למרכיב חשוב בתרבות הפנאי של אנשים רבים, החל מילדים צעירים, נוער ובוגרים, ואפילו שחקני קונסולות מקצועיים ומפורסמים מאוד.</p>
+                    <p>רכיבים בקונסולה:</p>
+                    <ul class="ol_margin">
+                        <li>הקונסולה עצמה</li>
+                        <li>בקר (שלט/י המשחק)</li>
+                        <li>מצלמה מיוחדת לזיהוי תנועה ומשחקים</li>
+                    </ul>
+                    <p>ברשת נמכרות קונסולות של כמה חברות:</p>
+                </div>
+                <button class="accordion accordionOne shadowAll" id="sony">PlayStation של SONY</button>
+                <div class="panel">
+                    <p>SONY מאפשרת מספר שירותים מקוונים, ביניהם אפליקציות שונות, משחקים אונליין עם משתמשים אחרים והורדת תכנים שונים. </p>
+                    <p><strong>PS4</strong> – הקונסולה החדשה של סוני.</p>
+                    <p><strong>PS4 Slim</strong> – זהה ל-PS4 מבחינת החומרה אך מעוצבת חיצונית בצורה שונה, וקטנה מקודמתה.</p>
+                    <p><strong>PS4 PRO</strong> – הקונסולה העוצמתית ביותר. ישנה אפשרות להעלות את כמות המשאבים להרצת משחק חלקה ומהירה יותר.</p>
+                </div>
+                <button class="accordion accordionOne shadowAll" id="nintendo">נינטנדו Nintendo</button>
+                <div class="panel">
+                    <p>לקונסולה של NINTENDO יש שני מצבים: נייד ונייח. במצב נייח היא מתחברת לטלוויזיה שלכם בעזרת חיבור מיוחד, ובצורה ניידת יש לה מסך ושני שלטים נפרדים, שאפשר להשתמש בהם למשחק רב משתתפים או לחבר אותם לצורה שמזכירה שלט קונסולה קלאסי.</p>
+                    <p>
+                        הקונסולה מספקת פלטפורמה ל<strong>משחקים ארקייד, משחקים שלא דורשים חומרה חזקה</strong>.הקונסולה נחשבת לקונסולה הניידת הפופולרית ביותר כרגע.</p>
+                </div>
+                <button class="accordion accordionOne shadowAll" id="xbox">XBOX של Microsoft</button>
+                <div class="panel">
+                    <p><strong>XBOX ONE</strong> – קונסולה מתקדמת, שניתן לשחק בה גם במשחקים מהדורות הקודמים של הקונסולה.</p>
+                    <p>קיימות שתי גרסאות מובילות לקונסולה:</p>
+                    <p><strong>Xbox One X</strong> – הגרסה המתקדמת ביותר לגיימרים רציניים. </p>
+                    <p><strong>Xbox One S</strong> – הגרסה הפשוטה והזולה יותר.</p>
+                    <p>הגרסה הישנה של הקונסולה היא XBOX 360.</p>
+                </div>
+
+                <button class="accordion accordionOne shadowAll" id="howDoWeKnow">איך נדע איזה קונסולה להציע?</button>
+                <div class="panel">
+                    <p>הכול תלוי בשימוש של הלקוח. אם הלקוח לא מחפש את החידוש הטכנולוגי המתקדם ביותר, נלך על קונסולה בסיסית.</p>
+                    <div class="remember">
+                        <div>
+                            <img src="image/importantIcon.png" />
+                            חשוב לזכור
+                        </div>
+                        חשוב לשאול את הלקוח באיזה קונסולה רוב החברים משחקים ולהמליץ לו לקנות את אותה האחת לחוויית משחק משותפת.
+                    </div>
+                    <br />
+                </div>
+
+                <button class="accordion accordionOne shadowAll" id="completers">מוצרים משלימים</button>
+                <div class="panel">
+                    <ul>
+                        <li>בקר (שלט) נוסף</li>
+                        <li>משחקים</li>
+                    </ul>
+                    <div class="remember">
+                        <div>
+                            <img src="image/importantIcon.png" />
+                            חשוב לזכור
+                        </div>
+                        תמיד להציע ללקוח מוצרים משלימים, הן לנוחותו והן לצורך הגדלת מכירות!
+                    </div>
+                    <br />
+                </div>
+                <button class="accordion accordionOne shadowAll" id="meetCustomerIcon">
+                    <img src="image/meetCustomerIcon.png" />
+                    רוצה לפגוש לקוח?
+                </button>
+                <div class="panel" id="meetCustomerQuestion">
+                    <div>
+                        <div>
+                            <img src="image/meetCustomer/meetCustomer_3.png" />
+                            <div class="speech_bubble">
+                                היי, לבן שלי יש יום הולדת בקרוב והוא אוהב מאוד גיימינג. איזה קונסולת משחקים כדאי לקנות לו?
+                            </div>
+                        </div>
+                        <div style="text-align: -webkit-center;">
+                            <table cellspacing="10" style="width:100%">
+
+                                <tr>
+                                    <th style="width:10%;">
+                                        <div class="fIcon1">&nbsp</div>
+                                    </th>
+                                    <th style="width:90%" id="f1" class="ansShape ansBGcolor shadowAll">קונסולה של NINTENDO</th>
+                                </tr>
+                                <tr>
+                                    <th style="width:10%;">
+                                        <div class="fIcon2">&nbsp</div>
+                                    </th>
+                                    <th style="width:90%" id="f2" class="ansShape ansBGcolor shadowAll">קונסולה של PLAYSTATION</th>
+                                </tr>
+                                <tr>
+                                    <th style="width:10%;">
+                                        <div class="tIcon">&nbsp</div>
+                                    </th>
+                                    <th id="t" class="ansShape ansBGcolor shadowAll" style="width:90%">
+                                        מומלץ לקנות קונסולה כמו של החברים שלו
+                                    </th>
+                                </tr>
+                            </table>
+                        </div>
+                        <div id="q22">
+                            <div>
+                                <img src="image/meetCustomer/meetCustomer_3.png" />
+                                <div class="speech_bubble">
+                                    לחבר הכי טוב שלו יש משהו בשם PS4, יש לכם כזה?
+                                </div>
+                            </div>
+                            <div style="text-align: -webkit-center;">
+                                <table cellspacing="10" style="width:100%">
+                                    <tr>
+                                        <th style="width:10%;">
+                                            <div class="fIcon12">&nbsp</div>
+                                        </th>
+                                        <th style="width:90%" id="f12" class="ansShape ansBGcolor shadowAll">
+                                            כן, זאת קונסולה מעולה!
+                                        </th>
+                                    </tr> 
+                                     <tr>
+                                        <th style="width:10%;">
+                                            <div class="tIcon2">&nbsp</div>
+                                        </th>
+                                        <th id="t2" class="ansShape ansBGcolor shadowAll" style="width:90%">כן, יש גם את החדשה יותר, PS4 SLIM</th>
+                                    </tr>
+                                    
+                                    <tr>
+                                        <th style="width:10%;">
+                                            <div class="fIcon22">&nbsp</div>
+                                        </th>
+                                        <th style="width:90%" id="f22" class="ansShape ansBGcolor shadowAll">זה דגם לא שווה, עדיף NINTENDO</th>
+                                    </tr>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br />
+
+    <!--תפריט תחתון:
+    https://codepen.io/john-sexton/pen/oeGGag-->
+    <nav class="mobile-bottom-nav">
+        <div class="mobile-bottom-nav__item" style="max-width: 25%;">
+            <a href="p1_laptops.html">
+                <div class="mobile-bottom-nav__item-content">
+                    <i class="material-icons">
+                        <img src="image/navIcon/nav1_icon1.png" />
+                    </i>
+                    ניידים
+                </div>
+            </a>
+        </div>
+        <div class="mobile-bottom-nav__item" style="max-width: 25%;">
+            <a href="p1_printers.html">
+                <div class="mobile-bottom-nav__item-content">
+                    <i class="material-icons">
+                        <img src="image/navIcon/nav1_icon2.png" />
+                    </i>
+                    מדפסות
+                </div>
+            </a>
+        </div>
+        <div class="mobile-bottom-nav__item mobile-bottom-nav__item--activeRight" style="max-width: 25%;">
+            <a href="p1_gaming.html">
+                <div class="mobile-bottom-nav__item-content">
+                    <i class="material-icons">
+                        <img src="image/navIcon/nav1_icon3.png" />
+                    </i>
+                    גיימינג
+                </div>
+            </a>
+        </div>
+
+        <div class="mobile-bottom-nav__item" style="max-width: 25%;">
+            <a href="p1_memories.html">
+                <div class="mobile-bottom-nav__item-content">
+                    <i class="material-icons">
+                        <img src="image/navIcon/nav1_icon4.png" />
+                    </i>
+                    זיכרונות
+                </div>
+            </a>
+        </div>
+    </nav>
+
+    <script>
+        /*אקורדיון*/
+        initAccordion();
+        /*סוף- אקורדיון*/
+    </script>
+
+</body>
+</html>
