@@ -18,7 +18,7 @@ function sumFunc() {
 
     $.ajax({
         dataType: 'json',
-        url: '/json/myJson.json',
+        url: 'json/myJson.json',
         async: false,
         success: function (data) {
 
@@ -46,7 +46,7 @@ function Game1Func() {
 
     $.ajax({
         dataType: 'json',
-        url: '/json/myJson.json',
+        url: 'json/myJson.json',
         async: false,
         success: function (data) {
             document.getElementById("ProductExplanationAlonePart").innerHTML = data.project.ProductExplanationAlonePart.ProductExplanation4;
