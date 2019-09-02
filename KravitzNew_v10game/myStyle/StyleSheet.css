@@ -102,7 +102,7 @@ body, button {
 }
 
 .forExampleTxt_long {
-    font-family: 'Gveret Levin AlefAlefAlef';
+    font-family: 'Gveret Levin AlefAlefAlef' !important;
     color: #178a8d;
     margin-top: 5px;
     margin-bottom: -10px;
@@ -112,7 +112,7 @@ body, button {
 }
 
 .forExampleTxt_short {
-    font-family: 'Gveret Levin AlefAlefAlef';
+    font-family: 'Gveret Levin AlefAlefAlef' !important;
     color: #178a8d;
     margin-top: 5px;
     font-size: 17px;
