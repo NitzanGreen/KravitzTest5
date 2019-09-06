@@ -7,7 +7,7 @@
 // Or with jQuery
  $( document ).ready(function(){
     alert("hi there");
-$('.carousel,.carousel-slider').slider({
+$('.carousel-slider').carousel({
     fullWidth: true,
     indicators: true
 });
