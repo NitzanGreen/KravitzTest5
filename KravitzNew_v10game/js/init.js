@@ -5,16 +5,20 @@
 //});
  
 // Or with jQuery
- $( document ).ready(function(){
-/* $('.carousel-slider').carousel({
+ $(document).ready(function(){
+ $('.carousel').carousel({
     fullWidth: true,
     indicators: true
-});*/
+});
     
+
+    });
+
+
                 // $(".button-collapse").sideNav();//mobile screen menu init
 
-                $('.carousel').carousel({indicators: true}); //carousel init
+     /*           $('.carousel').carousel({indicators: true}); //carousel init
 
                 $('.carousel-slider').slider({fullWidth: true});//slider init
+                */
     
-    });
