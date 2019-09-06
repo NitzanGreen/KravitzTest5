@@ -3,12 +3,18 @@
 //    indicators: true
    
 //});
-  alert("outside");
+ 
 // Or with jQuery
  $( document ).ready(function(){
-    alert("hi there");
-$('.carousel-slider').slider({
+/* $('.carousel-slider').carousel({
     fullWidth: true,
     indicators: true
-});
+});*/
+    
+                 $(".button-collapse").sideNav();//mobile screen menu init
+
+                $('.carousel').carousel(); //carousel init
+
+                $('.slider').slider({full_width: true});//slider init
+    
     });
