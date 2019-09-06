@@ -13,11 +13,8 @@
     
                 // $(".button-collapse").sideNav();//mobile screen menu init
 
-                $('.carousel').carousel(); //carousel init
+                $('.carousel').carousel({indicators: true}); //carousel init
 
-                $('.carousel-slider').slider({
-                   full_width: true,
-                 indicators: true
-                });//slider init
+                $('.carousel-slider').slider({full_width: true});//slider init
     
     });
