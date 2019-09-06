@@ -5,8 +5,9 @@
 //});
 
 // Or with jQuery
-
-$(".carousel,.carousel-slider").carousel({
+ $( document ).ready(function(){
+$('.carousel,.carousel-slider').carousel({
     fullWidth: true,
     indicators: true
 });
+    });
