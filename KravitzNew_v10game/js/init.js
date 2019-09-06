@@ -15,6 +15,6 @@
 
                 $('.carousel').carousel(); //carousel init
 
-                $('.slider').slider({full_width: true});//slider init
+                $('.carousel-slider').slider({full_width: true});//slider init
     
     });
