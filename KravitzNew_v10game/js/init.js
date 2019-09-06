@@ -3,7 +3,7 @@
 //    indicators: true
    
 //});
-
+  alert("outside");
 // Or with jQuery
  $( document ).ready(function(){
     alert("hi there");
