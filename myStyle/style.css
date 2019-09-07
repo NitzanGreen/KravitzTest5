@@ -1,0 +1,171 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+
+html {
+    line-height: 1 !important;
+}
+
+@font-face {
+    font-family: 'Gveret Levin AlefAlefAlef';
+    src: url(fonts/GveretLevinAlefAlefAlef-Regular.woff);
+}
+
+body {
+    font-family: 'Open Sans Hebrew', Helvetica, sans-serif;
+}
+
+/*.icon-block {
+    padding: 0 15px;
+}
+
+    .icon-block .material-icons {
+        font-size: inherit;
+    }*/
+
+.carouselTable {
+    border-collapse: unset !important;
+}
+
+h1 {
+    /*line-height: 132%;
+    margin-right: 3em;
+    margin-top: 3em;*/
+}
+
+td, th {
+    padding: 0 !important;
+    text-align: center !important;
+}
+
+.line1H1_p1 {
+    font-family: 'Open Sans Hebrew', Helvetica, sans-serif;
+    font-size: 40px !important;
+    color: #62c1c5 !important;
+    font-weight: bold !important;
+    POSITION: relative;
+    RIGHT: -27px;
+    TOP: 0;
+}
+
+.line2H1_p1 {
+    font-family: 'Gveret Levin AlefAlefAlef' !important;
+    font-size: 30px !important;
+    color: #00666b !important;
+    font-weight: 100 !important;
+    POSITION: relative;
+    RIGHT: 78px;
+    TOP: 0;
+}
+
+.line1H1_p2 {
+    font-family: 'Open Sans Hebrew', Helvetica, sans-serif;
+    font-size: 40px !important;
+    color: #62c1c5 !important;
+    font-weight: bold !important;
+    POSITION: relative;
+    RIGHT: -21px;
+    TOP: 0;
+}
+
+.line2H1_p2 {
+    font-family: 'Gveret Levin AlefAlefAlef' !important;
+    font-size: 30px !important;
+    color: #00666b !important;
+    font-weight: 100 !important;
+    POSITION: relative;
+    RIGHT: 30px;
+    TOP: 0;
+}
+
+.line1H1_p3 {
+    font-family: 'Open Sans Hebrew', Helvetica, sans-serif;
+    font-size: 40px !important;
+    color: #62c1c5 !important;
+    font-weight: bold !important;
+    POSITION: relative;
+    RIGHT: -21px;
+    TOP: 0;
+}
+
+.line2H1_p3 {
+    font-family: 'Gveret Levin AlefAlefAlef' !important;
+    font-size: 30px !important;
+    color: #00666b !important;
+    font-weight: 100 !important;
+    POSITION: relative;
+    RIGHT: 30px;
+    TOP: 0;
+}
+
+.carouselText {
+    font-size: 1.2em !important;
+    /*text-align: center !important;*/
+    /*margin-top: 2.5em !important;*/
+    line-height: 1.2em;
+}
+
+.carouselBtn {
+    text-align: center;
+    background-color: #f7a60f;
+    width: 120px;
+    height: 18px;
+    border-radius: 15px;
+    display: inline-block;
+    font-size: 20px;
+    color: white;
+    margin-top: 5px;
+    padding: 9px 0;
+}
+
+.carousel .indicators {
+    padding: 0px !important;
+    TOP: 1em !important;
+    z-index: -1;
+}
+
+.carouselPic {
+    width: 100%;
+    margin-top: 20px;
+}
+
+.shadowAll {
+    box-shadow: #b1b0b0 2px 2px 2px;
+}
+
+.animate-bottom {
+    position: relative;
+    -webkit-animation-name: animatebottom;
+    -webkit-animation-duration: 1s;
+    animation-name: animatebottom;
+    animation-duration: 1s;
+}
+
+@-webkit-keyframes animatebottom {
+    from {
+        bottom: -100px;
+        opacity: 0;
+    }
+
+    to {
+        bottom: 0px;
+        opacity: 1;
+    }
+}
+
+@keyframes animatebottom {
+    from {
+        bottom: -100px;
+        opacity: 0;
+    }
+
+    to {
+        bottom: 0;
+        opacity: 1;
+    }
+}

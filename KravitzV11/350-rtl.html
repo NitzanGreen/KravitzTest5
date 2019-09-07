@@ -1,0 +1,176 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Swiper demo</title>
+<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+
+<link rel="stylesheet" href="../dist/css/swiper.min.css">
+    <link href="myStyle/style.css" type="text/css" rel="stylesheet" media="screen,projection" />
+
+
+<style>
+    html, body {
+      position: relative;
+      height: 100%;
+    }
+    body {
+      background: #eee;
+      /*font-family: Helvetica Neue, Helvetica, Arial, sans-serif;*/
+      /*font-size: 14px;*/
+      color:#000;
+      margin: 0;
+      padding: 0;
+    }
+    .swiper-container {
+      width: 100%;
+      height: 100%;
+    }
+    .swiper-slide {
+      text-align: center;
+      /*font-size: 18px;*/
+      background: #fff;
+
+      /* Center slide text vertically */
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: -webkit-flex;
+      display: flex;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      -webkit-justify-content: center;
+      justify-content: center;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      -webkit-align-items: center;
+      align-items: center;
+    }
+  </style>
+</head>
+<body>
+
+
+<div class="swiper-container" dir="rtl">
+
+    <div class="swiper-pagination"></div>  
+
+<div class="swiper-wrapper">
+<div class="swiper-slide">
+    <div style="padding:25px;">
+        <table class="carouselTable" style="margin-top: 50px;">
+            <tbody>
+                <tr>
+                    <td>
+                        <div>
+                            <div class="line1H1_p1">אלקטרוניקה</div>
+                            <div class="line2H1_p1" style="font-family:'Gveret Levin AlefAlefAlef';">בקצרה</div>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p class="carouselText">
+                            כל מה שחשוב לזכור על מכירת
+                            <br />
+                            מוצרי אלקטרוניקה – במנות קטנות
+                        </p>
+                        <a href="p1_laptops.html">
+                            <div class="carouselBtn shadowAll">
+                                התחל
+                            </div>
+                        </a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <img class="carouselPic" src="image/carousel_p1.png" />
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+<div class="swiper-slide"><div style="padding:25px;">
+    <table class="carouselTable" style="margin-top: 50px;">
+        <tbody>
+            <tr>
+                <td>
+                    <div>
+                        <div class="line1H1_p2">חצי"ם</div>
+                        <div class="line2H1_p2" style="font-family:'Gveret Levin AlefAlefAlef';">בלמידה</div>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <p class="carouselText">
+                        מכוונים אותך למטרה –
+                        <br />
+                        איך להכיר מוצרים חדשים ואיך למכור אותם
+                    </p>
+                    <a href="p2_hetzimModel.html">
+                        <div class="carouselBtn shadowAll">
+                            התחל
+                        </div>
+                    </a>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <img class="carouselPic" src="image/carousel_p2.png" />
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div></div>
+<div class="swiper-slide"><div style="padding:25px;">
+    <table class="carouselTable" style="margin-top: 50px;">
+        <tbody>
+            <tr>
+                <td>
+                    <div>
+                        <div class="line1H1_p3">קצפת's</div>
+                        <div class="line2H1_p3" style="font-family:'Gveret Levin AlefAlefAlef';">במכירה</div>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <p class="carouselText">תהליך מכירה נכון – גם לנו וגם ללקוח</p>
+                    <a href="p3_kazefets.html">
+                        <div class="carouselBtn shadowAll" style="margin-top: 23.5px !important;">
+                            התחל
+                        </div>
+                    </a>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <img class="carouselPic" src="image/carousel_p3.png" />
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div></div>
+</div>
+
+<div class="swiper-button-prev"></div>
+<div class="swiper-button-next"></div>
+</div>
+
+<script src="../dist/js/swiper.min.js"></script>
+
+<script>
+    var swiper = new Swiper('.swiper-container', {
+      pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+      },
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+    });
+  </script>
+</body>
+</html>

@@ -1,0 +1,245 @@
+﻿
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>קצפת's במכירה</title>
+
+    <!--CSS-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="myStyle/StyleSheet.css" rel="stylesheet" />
+
+    <!--- Scripts -->
+    <script src="js/jquery-1.12.0.min.js"></script>
+    <script src="bootstrap/js/bootstrap.js"></script>
+    <script src="js/JavaScriptAccordion.js"></script>
+
+</head>
+<body>
+    <div id="myContainer">
+        <div id="myNav" class="overlay">
+            <div class="overlay-content">
+                <a href="index.html">בית</a>
+                <a href="p1_laptops.html">אלקטרוניקה בקצרה</a>
+                <a href="p2_hetzimModel.html">חצי"ם בלמידה</a>
+                <a class="activePage" href="p3_kazefets.html">קצפת's במכירה</a>
+                <a href="p4_About.html">אודות</a>
+            </div>
+            <div class="closebtn" onclick="closeNav()">
+                <img style="width:25px;" src="image/closeNav.png" />
+            </div>
+        </div>
+        <div id="topNavSticky">
+            <div id="hamburgerNav1">
+                <div id="hamburgerNav2" class="shadowAll" onclick="openNav()">
+                    <img style="width:30px;" src="image/hamborgerNav.png" />
+                </div>
+            </div>
+            <div id="topNavImage"></div>
+        </div>
+        <div class="animate-bottom">
+            <h1 id="topNavH1">מתרגלים קצפת's</h1>
+            <div>
+                <img style="width: 10em;float: left;margin-bottom: 1.5em;margin-top: -4em; margin-left: 0.5em;" src="image/acordion_pic3-01.png" />
+                <p style="text-align: right; margin-top: 5em; width: 15em">צפו בסרטונים, ולאחר כל סרטון ענו על השאלה</p>
+            </div>
+            <div id="accordionPanel">
+                <button class="accordion accordionOne" id="closeness">סרטון 1</button>
+                <div class="panel" video-id="Jd5Pm0Lq0bU" insert-first>
+                    <div class="kazefetQuestion">
+                        <div>
+                            <img src="image/meetCustomer/vyond_avatar.png" />
+                            <div class="speech_bubble">
+                                איזה חלקים משלב "קרבה" המוכרת בסרטון <strong>לא</strong> ביצעה?
+                            </div>
+                        </div>
+                        <div style="text-align: -webkit-center;">
+                            <table cellspacing="10" style="width:100%">       
+                                <tr>
+                                    <th style="width:10%;">
+                                        <div class="fIcon1">&nbsp</div>
+                                    </th>
+                                    <th style="width:90%" id="f1" class="ansShape ansBGcolor shadowAll">ברכת שלום</th>
+                                </tr>
+                                <tr>
+                                    <th style="width:10%;">
+                                        <div class="fIcon2">&nbsp</div>
+                                    </th>
+                                    <th style="width:90%" id="f2" class="ansShape ansBGcolor shadowAll">חיוך</th>
+                                </tr>
+                                <tr>
+                                    <th style="width:10%;">
+                                        <div class="fIcon3">&nbsp</div>
+                                    </th>
+                                    <th style="width:90%" id="f3" class="ansShape ansBGcolor shadowAll">הצגה עצמית</th>
+                                </tr>
+                                <tr>
+                                    <th style="width:10%;">
+                                        <div class="tIcon">&nbsp</div>
+                                    </th>
+                                    <th id="t" class="ansShape ansBGcolor shadowAll" style="width:90%">שימוש בשם הלקוח</th>
+                                </tr>
+                                <tr>
+                                    <th style="width:10%;">
+                                        <div class="fIcon4">&nbsp</div>
+                                    </th>
+                                    <th style="width:90%" id="f4" class="ansShape ansBGcolor shadowAll">חשיפת מידע אישי רלוונטי</th>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+                <button class="accordion accordionOne shadowAll" id="need">סרטון 2</button>
+                <div class="panel" video-id="dl-uVSWsUsM" insert-first>
+                    <div class="kazefetQuestion">
+                        <div>
+                            <img src="image/meetCustomer/vyond_avatar.png" />
+                            <div class="speech_bubble">
+                                איזה מבין שלבי מודל קצפת'S ביצעה המוכרת בסרטון?
+                            </div>
+                        </div>
+                        <div style="text-align: -webkit-center;">
+                            <table cellspacing="10" style="width:100%">
+                                <tr>
+                                    <th style="width:10%;">
+                                        <div class="fIcon1_2">&nbsp</div>
+                                    </th>
+                                    <th style="width:90%" id="f1_2" class="ansShape ansBGcolor shadowAll">קרבה</th>
+                                </tr>
+                                <tr>
+                                    <th style="width:10%;">
+                                        <div class="tIcon2">&nbsp</div>
+                                    </th>
+                                    <th id="t_2" class="ansShape ansBGcolor shadowAll" style="width:90%">צרכים</th>
+                                </tr>
+                                <tr>
+                                    <th style="width:10%;">
+                                        <div class="fIcon2_2">&nbsp</div>
+                                    </th>
+                                    <th style="width:90%" id="f2_2" class="ansShape ansBGcolor shadowAll">פתרון</th>
+                                </tr>
+                                <tr>
+                                    <th style="width:10%;">
+                                        <div class="fIcon3_2">&nbsp</div>
+                                    </th>
+                                    <th style="width:90%" id="f3_2" class="ansShape ansBGcolor shadowAll">תועלות</th>
+                                </tr>
+                                <tr>
+                                    <th style="width:10%;">
+                                        <div class="fIcon4_2">&nbsp</div>
+                                    </th>
+                                    <th style="width:90%" id="f4_2" class="ansShape ansBGcolor shadowAll">סגירה</th>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+                <button class="accordion accordionOne shadowAll" id="solution">סרטון 3</button>
+                <div class="panel" video-id="3sOw0uaxA34" insert-first>
+                    <div class="kazefetQuestion">
+                        <div>
+                            <img src="image/meetCustomer/vyond_avatar.png" />
+                            <div class="speech_bubble">
+                                איזה חלק בשלב "פתרון" החסירה המוכרת?
+                            </div>
+                        </div>
+                        <div style="text-align: -webkit-center;">
+                            <table cellspacing="10" style="width:100%">
+                                <tr>
+                                    <th style="width:10%;">
+                                        <div class="fIcon1_3">&nbsp</div>
+                                    </th>
+                                    <th style="width:90%" id="f1_3" class="ansShape ansBGcolor shadowAll">הסברת הצורך שעליו עונה המוצר</th>
+                                </tr>
+                                <tr>
+                                    <th style="width:10%;">
+                                        <div class="tIcon3">&nbsp</div>
+                                    </th>
+                                    <th id="t_3" class="ansShape ansBGcolor shadowAll" style="width:90%">הצעת שני מוצרים מההתחלה</th>
+                                </tr>
+                                <tr>
+                                    <th style="width:10%;">
+                                        <div class="fIcon2_3">&nbsp</div>
+                                    </th>
+                                    <th style="width:90%" id="f2_3" class="ansShape ansBGcolor shadowAll">הצגת המוצר פיזית ללקוח</th>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+                <button class="accordion accordionOne shadowAll" id="value">סרטון 4</button>
+                <div class="panel" video-id="ptcVONJyb_0" insert-first>
+                    <div class="kazefetQuestion">
+                        <div>
+                            <img src="image/meetCustomer/vyond_avatar.png" />
+                            <div class="speech_bubble">
+                                המוכרת הציעה מוצר משלים להגדלת המכירה, אך הלקוח התנגד. כיצד המוכרת התמודדה עם ההתנגדות?
+                            </div>
+                        </div>
+                        <div style="text-align: -webkit-center;">
+                            <table cellspacing="10" style="width:100%">
+                                <tr>
+                                    <th style="width:10%;">
+                                        <div class="fIcon1_4">&nbsp</div>
+                                    </th>
+                                    <th style="width:90%" id="f1_4" class="ansShape ansBGcolor shadowAll">הסבירה מדוע המוצר שהציעה איכותי</th>
+                                </tr>
+                                <tr>
+                                    <th style="width:10%;">
+                                        <div class="fIcon2_4">&nbsp</div>
+                                    </th>
+                                    <th style="width:90%" id="f2_4" class="ansShape ansBGcolor shadowAll">הציעה מוצר חלופי במחיר נוח יותר</th>
+                                </tr>
+                                <tr>
+                                    <th style="width:10%;">
+                                        <div class="tIcon4">&nbsp</div>
+                                    </th>
+                                    <th id="t_4" class="ansShape ansBGcolor shadowAll" style="width:90%">שתי התשובות נכונות</th>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br />
+    <nav class="mobile-bottom-nav">
+        <div class="mobile-bottom-nav__item " style="max-width: 33.3%;">
+            <a href="p3_kazefets.html">
+                <div class="mobile-bottom-nav__item-content">
+                    <i class="material-icons">
+                        <img src="image/navIcon/nav3_icon1.png" />
+                    </i>
+                    מודל קצפת's
+                </div>
+            </a>
+        </div>
+        <div class="mobile-bottom-nav__item " style="max-width: 33.3%;">
+            <a href="p3_kazefetsDoDont.html">
+                <div class="mobile-bottom-nav__item-content">
+                    <i class="material-icons">
+                        <img src="image/navIcon/nav3_icon2.png" />
+                    </i>
+                    עשה ואל תעשה
+                </div>
+            </a>
+        </div>
+        <div class="mobile-bottom-nav__item mobile-bottom-nav__item--activeRight" style="max-width: 33.3%;">
+            <a href="p3_kazefetsPractice.html">
+                <div class="mobile-bottom-nav__item-content">
+                    <i class="material-icons">
+                        <img src="image/navIcon/nav2_icon3.png" />
+                    </i>
+                    מתרגלים קצפת's
+                </div>
+            </a>
+        </div>
+    </nav>
+    <script>
+        /*אקורדיון*/
+        initAccordion();
+        /*סוף- אקורדיון*/
+    </script>
+</body>
+</html>

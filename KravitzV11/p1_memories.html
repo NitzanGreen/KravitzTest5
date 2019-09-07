@@ -1,0 +1,207 @@
+﻿
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>אלקטרוניקה בקצרה</title>
+
+    <!--CSS-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="myStyle/StyleSheet.css" rel="stylesheet" />
+
+    <!--- Scripts -->
+    <script src="js/jquery-1.12.0.min.js"></script>
+    <script src="bootstrap/js/bootstrap.js"></script>
+    <script src="js/JavaScriptAccordion.js"></script>
+
+</head>
+<body>
+    <div id="myContainer">
+        <div id="myNav" class="overlay">
+            <div class="overlay-content">
+                <a href="index.html">בית</a>
+                <a class="activePage" href="p1_laptops.html">אלקטרוניקה בקצרה</a>
+                <a href="p2_hetzimModel.html">חצי"ם בלמידה</a>
+                <a href="p3_kazefets.html">קצפת's במכירה</a>
+                <a href="p4_About.html">אודות</a>
+            </div>
+            <div class="closebtn" onclick="closeNav()">
+                <img style="width:25px;" src="image/closeNav.png" />
+            </div>
+        </div>
+        <div id="topNavSticky">
+            <div id="hamburgerNav1">
+                <div id="hamburgerNav2" class="shadowAll" onclick="openNav()">
+                    <img style="width:30px;" src="image/hamborgerNav.png" />
+                </div>
+            </div>
+            <div id="topNavImage"></div>
+        </div>
+        <div class="animate-bottom">
+            <h1 id="topNavH1">זכרונות</h1>
+            <div id="accordionPanel">
+                <button class="accordion accordionOne shadowAll" id="DOK">דיסק-און-קי</button>
+                <div class="panel">
+                    <p>מכשיר קטן מאוד לאחסון נתונים למחשב, המשתמש בזיכרון (Flash) לאחסון נתונים ובממשק ה-USB של המחשב להעברת הנתונים אל המחשב או ממנו. </p>
+                  <p>  המכשיר מגיע בנפחי מידע נמוכים יחסית (בין 4 ל-128 GB) ואינו מיועד לאחסון מידע רב אלא בעיקר להעברת מידע ממכשיר למכשיר באופן נגיש וקל. </p>
+                    <p>ברשת נמכרים בעיקר DOK של חברת SanDisk.</p>
+                    <div class="doYouKnow">
+                        <div>
+                            <img src="image/doYouKnowIcon2.png" />
+                            הידעת?
+                        </div>
+                        דיסק-און-קי הוא המצאה ישראלית!
+                    </div>
+                    <br />
+                </div>
+                <button class="accordion accordionOne shadowAll" id="externalDrive">כונן קשיח חיצוני</button>
+                <div class="panel">
+                    <p>זיכרון נייד שנמצא מחוץ למארז המחשב ומיועד לאחסון מידע רב (1-3 TB). זהו למעשה דיסק קשיח רגיל, אשר מורכב בתוך מארז עצמאי ומתחבר למחשב בדרך כלל באמצעות כבל USB.</p>
+                    <p>השימוש העיקרי בכונן קשיח הוא אחסון חומרים רבים לגיבוי, לדוגמה חומרי לימוד של סטודנטים, תמונות וקבצים חשובים של משפחה, מסמכים חשובים של משרד וכד'. כונן קשיח לרוב לא משמש להעברת מידע ממקום למקום.</p>
+                    <p>ברשת נמכרים בעיקר כוננים מסוג WD של חברת סופרן סחר.</p>
+
+                </div>
+                <button class="accordion accordionOne shadowAll" id="cloud">ענן</button>
+                <div class="panel">
+                    <p>בשנים האחרונות אנשים משתמשים בשירותי ענן - שרתים מרוחקים בהם ניתן לאחסן את הקבצים והתכנים שלנו. הענן הוא מקום אחסון וגיבוי פשוט ויעיל לשיתוף.</p>
+                    <p>ישנם שרתי ענן מרוחקים בתשלום, אך ניתן גם לרכוש ענן ביתי שמגן על הפרטיות שלנו, כמו My Cloud של חברת WD.</p>
+                    <p>בשרתי ענן לרוב ניתן לקבל שטח אחסון גדול במיוחד, כמו 8-10 TB.</p>
+                    <br />
+                </div>
+
+                <button class="accordion accordionOne shadowAll" id="whichToSell">איך נדע איזה זיכרון להציע?</button>
+                <div class="panel">
+                <p>בעיקר באמצעות הבנת הצורך שלו,  והסבר על כמות המידע שניתן לאחסן בזיכרון הנרכש.</p>
+                     <div class="smallTip">
+                        <div>
+                            <img src="image/smallTipIcon.png" />
+                            טיפ קטן
+                        </div>
+                      מומלץ לשדרג את נפח הזיכרון של המוצר בעת הרכישה.
+                    </div>
+                    <br />
+                </div>
+
+                <button class="accordion accordionOne shadowAll" id="meetCustomerIcon">
+                    <img src="image/meetCustomerIcon.png" />
+                    רוצה לפגוש לקוח?
+                </button>
+                <div class="panel" id="meetCustomerQuestion">
+                    <div>
+                        <div>
+                            <img src="image/meetCustomer/meetCustomer_4_1.png" />
+                            <div class="speech_bubble">
+                                שלום, אני צריכה לשלוח לבת שלי קובץ חשוב אבל הוא לא עובר במייל! איך אני יכולה להעביר את זה למחשב שלה?
+                            </div>
+                        </div>
+                        <div style="text-align: -webkit-center;">
+                            <table cellspacing="10" style="width:100%">
+                                <tr>
+                                    <th style="width:10%;">
+                                        <div class="tIcon">&nbsp</div>
+                                    </th>
+                                    <th id="t" class="ansShape ansBGcolor shadowAll" style="width:90%">דיסק-און-קי</th>
+                                </tr>
+                                <tr>
+                                    <th style="width:10%;">
+                                        <div class="fIcon1">&nbsp</div>
+                                    </th>
+                                    <th style="width:90%" id="f1" class="ansShape ansBGcolor shadowAll">כונן קשיח</th>
+                                </tr>
+                                <tr>
+                                    <th style="width:10%;">
+                                        <div class="fIcon2">&nbsp</div>
+                                    </th>
+                                    <th style="width:90%" id="f2" class="ansShape ansBGcolor shadowAll">ענן</th>
+                                </tr>
+                            </table>
+                        </div>
+                        <div id="q22">
+                            <div>
+                                <img src="image/meetCustomer/meetCustomer_4_2.png" />
+                                <div class="speech_bubble">
+                                    אהלן, אני צלם חתונות ואין לי מקום במחשב לתמונות של כל הזוגות! אני צריך המון המון שטח, יש לזה פתרון?
+                                </div>
+                            </div>
+                            <div style="text-align: -webkit-center;">
+                                <table cellspacing="10" style="width:100%">
+                                    <tr>
+                                        <th style="width:10%;">
+                                            <div class="fIcon12">&nbsp</div>
+                                        </th>
+                                        <th style="width:90%" id="f12" class="ansShape ansBGcolor shadowAll">לקנות מספר כוננים קשיחים</th>
+                                    </tr>
+                                    <tr>
+                                        <th style="width:10%;">
+                                            <div class="fIcon22">&nbsp</div>
+                                        </th>
+                                        <th style="width:90%" id="f22" class="ansShape ansBGcolor shadowAll">לחלק לכל לקוח דיסק-און-קי</th>
+                                    </tr>
+                                    <tr>
+                                        <th style="width:10%;">
+                                            <div class="tIcon2">&nbsp</div>
+                                        </th>
+                                        <th id="t2" class="ansShape ansBGcolor shadowAll" style="width:90%">
+                                            לקנות ענן פרטי
+                                        </th>
+                                    </tr>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    <br />
+
+    <nav class="mobile-bottom-nav">
+        <div class="mobile-bottom-nav__item"style="max-width: 25%;">
+            <a href="p1_laptops.html">
+                <div class="mobile-bottom-nav__item-content">
+                    <i class="material-icons">
+                        <img src="image/navIcon/nav1_icon1.png" />
+                    </i>
+                    ניידים
+                </div>
+            </a>
+        </div>
+        <div class="mobile-bottom-nav__item"style="max-width: 25%;">
+            <a href="p1_printers.html">
+                <div class="mobile-bottom-nav__item-content">
+                    <i class="material-icons">
+                        <img src="image/navIcon/nav1_icon2.png" />
+                    </i>
+                    מדפסות
+                </div>
+            </a>
+        </div>
+        <div class="mobile-bottom-nav__item"style="max-width: 25%;">
+            <a href="p1_gaming.html">
+                <div class="mobile-bottom-nav__item-content">
+                    <i class="material-icons">
+                        <img src="image/navIcon/nav1_icon3.png" />
+                    </i>
+                    גיימינג
+                </div>
+            </a>
+        </div>
+
+        <div class="mobile-bottom-nav__item mobile-bottom-nav__item--activeRight" style="max-width: 25%;">
+            <a href="p1_memories.html">
+                <div class="mobile-bottom-nav__item-content">
+                    <i class="material-icons">
+                        <img src="image/navIcon/nav1_icon4.png" />
+                    </i>
+                    זיכרונות
+                </div>
+            </a>
+        </div>
+    </nav>
+    <script>
+        /*אקורדיון*/
+        initAccordion();
+        /*סוף- אקורדיון*/
+    </script>
+</body>
+</html>
