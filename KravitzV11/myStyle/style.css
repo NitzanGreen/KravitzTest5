@@ -16,6 +16,11 @@ html {
     src: url(fonts/GveretLevinAlefAlefAlef-Regular.woff);
 }
 
+@font-face {
+    font-family: 'Open Sans Hebrew';
+    src: url(fonts/GveretLevinAlefAlefAlef-Regular.woff);
+}
+
 body {
     font-family: 'Open Sans Hebrew', Helvetica, sans-serif;
 }
