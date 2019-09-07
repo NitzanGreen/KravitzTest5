@@ -229,7 +229,7 @@
     }
 
 .swiper-container-horizontal > .swiper-pagination-bullets, .swiper-pagination-custom, .swiper-pagination-fraction {
-    top: 4vh;
+    top: 3vh;
     left: 0;
     width: 100%;
 }
