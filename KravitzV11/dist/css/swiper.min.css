@@ -1,4 +1,4 @@
-﻿/**
+/**
  * Swiper 4.5.0
  * Most modern mobile touch slider and framework with hardware accelerated transitions
  * http://www.idangero.us/swiper/
@@ -229,7 +229,7 @@
     }
 
 .swiper-container-horizontal > .swiper-pagination-bullets, .swiper-pagination-custom, .swiper-pagination-fraction {
-    top: 8px;
+    top: 4em;
     left: 0;
     width: 100%;
 }
