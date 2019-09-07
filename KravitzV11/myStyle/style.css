@@ -18,7 +18,44 @@ html {
 
 @font-face {
     font-family: 'Open Sans Hebrew';
-    src: url(fonts/GveretLevinAlefAlefAlef-Regular.woff);
+    src: url(fonts/OPENSANSHEBREW-BOLD.TTF);
+}
+
+
+@font-face {
+    font-family: 'Open Sans Hebrew';
+    src: url(fonts/OPENSANSHEBREW-BOLDITALIC.TTF);
+}
+
+
+@font-face {
+    font-family: 'Open Sans Hebrew';
+    src: url(fonts/OPENSANSHEBREW-EXTRABOLD-WEBFONT.TTF);
+}
+
+@font-face {
+    font-family: 'Open Sans Hebrew';
+    src: url(fonts/OPENSANSHEBREW-EXTRABOLDITALIC.TTF);
+}
+
+@font-face {
+    font-family: 'Open Sans Hebrew';
+    src: url(fonts/OPENSANSHEBREW-ITALIC.TTF);
+}
+
+@font-face {
+    font-family: 'Open Sans Hebrew';
+    src: url(fonts/OPENSANSHEBREW-LIGHT-WEBFONT.TTF);
+}
+
+@font-face {
+    font-family: 'Open Sans Hebrew';
+    src: url(fonts/OPENSANSHEBREW-LIGHTITALIC.TTF);
+}
+
+@font-face {
+    font-family: 'Open Sans Hebrew';
+    src: url(fonts/OPENSANSHEBREW-REGULAR-WEBFONT.TTF);
 }
 
 body {
