@@ -1,5 +1,16 @@
 ﻿
 
+#topNavImage2 {
+    background-image: url('../image/leaves2.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 10VH;
+    height: 6VH;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
 #table1_odot {
     width: 100%;
     background-image: url(../image/odot.png);
